@@ -1,0 +1,730 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://github.com/COST-ELTEC/Schemas/raw/master/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://github.com/COST-ELTEC/Schemas/raw/master/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="it" xml:id="DTH01">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>
+                    <!-- title of work -->Nel sogno</title>
+                <author>
+                    <!-- information about the author --> Neera </author>
+                <respStmt>
+                    <resp>Encoded by</resp>
+                    <name>Vanessa Bonanno</name>
+                    <!-- information about the encoder -->
+                </respStmt>
+            </titleStmt>
+            <extent>
+                <measure unit="words">16017</measure>
+				<measure unit="pages">37</measure>
+                <!-- size of the text, in pages and words -->
+            </extent>
+            <publicationStmt>
+                <publisher>DHDK Course "Digital Text in the Humanities"</publisher>
+                <distributor>DHDK Course "Digital Text in the Humanities"</distributor>
+                <date>2021</date>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+                </availability>
+                <!-- standard text about status as part of ELTeC -->
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="printSource">
+                    <author>Neera</author>
+                    <title>Nel sogno</title>
+                    <date>1893</date>
+                    <publisher>Libreria Editrice Galli</publisher>
+                    <!-- bibliographic description of the printed source -->
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc n="eltec-1">
+            <p/>
+        </encodingDesc>
+
+        <profileDesc>
+            <langUsage>
+                <language ident="it">Italian</language>
+            </langUsage>
+
+            <textClass>
+                <keywords>
+                    <term>Italian literature</term>
+					<term>Neera</term>
+					<term>Nel sogno</term>
+					<term>Simbolismo</term>
+					<term>Psicologia</term>
+					<term>Femminismo</term>
+					<term>Donne</term>
+                </keywords>
+
+            </textClass>
+            <textDesc>
+                <authorGender xmlns="http://distantreading.net/eltec/ns" key="F"/>
+                <size xmlns="http://distantreading.net/eltec/ns" key="long"/>
+                <reprintCount xmlns="http://distantreading.net/eltec/ns" key="high"/>
+                <timeSlot xmlns="http://distantreading.net/eltec/ns" key="T4"/>
+
+            </textDesc>
+            <!-- additional descriptive information, selection criteria, etc. -->
+        </profileDesc>
+        <revisionDesc>
+            <!-- revision information -->
+            <change when="2021-06-16">Final Revision TEI/XML encoding</change>
+
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>		
+			<div1 type='part' n='1'><head>PARTE PRIMA</head>
+				<div2 type='chapter'><head>L'ASCETA.</head>
+					<p><q type="spoken">" <name type="entity">Signore</name> <name type="entity">Iddio</name>, vi ringrazio. Siate benedetto, o  <name type="entity">Signore</name> , nel vostro splendore e nella vostra oscurità, nel bene che fate e nel male che permettete, nella rivelazione e nel mistero, in questo mondo e nell'altro, perché Voi solo sapete. Restino con Voi i cuori puri che mai non conobbero i turbamenti del peccato; vengano a Voi i cuori ardenti che la passione tormenta; accoglieteci tutti, mio <name type="entity">Dio</name> , nella vostra misericordia."</q></p>
+					<p>Sulle ultime parole il prete, che già stava in ginocchio cogli occhi rivolti al cielo, chinò la testa, e rimase lungamente assorto in un'estasi mistica.</p>
+					<p>Era il tramonto, ed era la stagione più calda dell'anno.</p>
+					<p>A tanta altezza sopra i viventi il sole calava in uno sfolgorìo immacolato di raggi, accendendo scintille sulle vette più sporgenti dei ghiacciai, tracciando strisce purpuree sui fianchi delle montagne, facendo luccicare a tratti i piccoli rivoli delle sorgenti discendenti lungo le balze, nel fondo dei burroni, dove già nereggiava il mistero della notte.</p>
+					<p>Fresca, purissima, imbevuta di aromi resinosi, l'aria traspariva in mezzo ai boschi d'abete, e, aprendo spazi più chiari nelle chiome vaporose dei faggi, ne faceva emergere i bianchi e ritti fusti allineati colla grazia elegante e gracile dì un colonnato greco.</p>
+					<p>Fuori dei boschi, nei cespugli sparsi, nei licheni arrampicanti, nei grossi ciuffi di rododentro, nelle ágavi, nelle ériche, nelle felci, nelle macchie brune e sinuose del muschio, nell'atteggiamento rigido dei rami delle brughiere si disegnavano ombre vaghe di persone oranti, di braccia erette al cielo, come se dalla natura tutta venisse in quell'ora e in quel luogo un irresistibile bisogno di preghiera.</p>
+					<p>Tornando ad alzare la fronte, il prete vide tutto ciò. Quei monti, quel cielo, quegli alberi, quello spazio, erano da molti anni i suoi amici, i compagni muti eppure intendenti del suo fervido innalzamento a  <name type="entity">Dio</name> . Con un placido sguardo egli abbracciò le vette fin le più lontane, apparenti quasi nubi al disopra delle altre. Un profondo sentimento d'amore, una parentela misteriosa lo univa a quei colossi che dalla terra guardavano il cielo. Egli ne sentiva la invitta potenza; amava la loro saldezza granitica, la purità dei loro marmi e delle loro nevi. Una tenerezza figliale lo prendeva, man mano che qualcuna delle vette scompariva nella oscurità; si sarebbe detto che egli voleva accarezzarle come si accarezza una testa adorata a cui il sonno sta per chiudere gli occhi.</p>
+					<p>Nessuna melanconia si mesceva a questo saluto che il solitario dava tutte le sere ai suoi monti; nessuna preoccupazione terrena, nessun timore per il domani. Semplice e calma, la sua anima riposava nella natura di cui gli era penetrata in tutte le fibre la placidità maestosa. Non come uomo perduto in un deserto, ma come simile, vivente fra i suoi simili, egli intendeva il silenzio dell'ombra.</p>
+					<p>Il raccoglimento degli alberi, il cadere del sasso, il quasi impercettibile spostamento dei rami, dei sottili fili d'erba al passaggio di un insetto, gli riempivano il cuore di una dolcezza traboccante; per cui la sua preghiera era spesso accompagnata da altre piccole preci, da slanci di riconoscenza e d'amore, da un tenero delirio e da una compenetrazione così intima della bontà e della grandezza di  <name type="entity">Dio</name>  che lagrime di consolazione gli scendevano dagli occhi, e, trovandosele poi sulle mani e sugli abiti, egli non sapeva più se fossero le lagrime proprie o la stessa rugiada che cadeva dal cielo sui fili d'erba e sugli insetti.</p>
+					<p>Mormorò a bassa voce: <q type="spoken">"L'invisibile si è rivelato a me, io sento la voce della solitudine."</q> Poi si tolse d'in sui ginocchi e stette ritto colle braccia conserte.</p>
+					<p>Era una piccola figura d'uomo, molto delicata: e, ad onta che la vita all'aria aperta gli avesse abbronzata ed incartapecorita la pelle, nelle cavità fra il naso e le guancie, sotto gli occhi, sui polsi gli biancheggiava la trasparenza degli asceti, ed il profilo che staccavasi con una assoluta assenza di pastosità in una linea d'acciaio, la bocca sottilissima, immateriale, gli davano una somiglianza perfetta coi santi più conosciuti del martirologio cristiano.</p>
+					<p>Vestiva una tonaca informe di lana bruna sciolta ai fianchi e cadente sopra un paio di rozze scarpe allacciate a mo' dei sandali antichi con striscioline di cuoio. La testa era nuda, cinta da pochi capelli lunghi e svolazzanti dietro l'orecchio, col segno della sacra tonsura ancora visibile benchè da parecchi anni sconosciuta al rasoio.</p>
+					<p>La sua età appariva incerta. Come tutti coloro che sono assorti in un mondo superiore, sembrava sfuggire alla legge comune della vecchiaia. La sua età era quella di chi ama e di chi crede.</p>
+				</div2>
+				
+				<div2 type='chapter'><head>* <lb/> * *</head>
+					<p>Nato nei campi, nutrito fin dalle fascie dell'ossigeno dei monti, cresciuto insieme agli uccelli, alle farfalle, ai fiori, egli non aveva mai saputo staccarsi dalla sua patria naturale, e, quando era stato il momento di scegliere il suo posto nel mondo, gli parve che nessuno potesse soddisfare meglio i suoi desideri che quello di una adorazione continua al divino Fattore.</p>
+					<p>Sorgere col sole del mattino, schiudersi colla gemma e colla crisalide, olezzare col petalo, lavorare coll'ape, combattere col vento, gemere colla fonte, meditare col sasso, fremere col bosco, alzarsi coll'allodola e piegare al tramonto calmo e solenne cantando le lodi di <name type="entity">Dio</name> : ecco il suo ideale.</p>
+					<p>Fu prete a vent'anni. Nè lotte, nè ostacoli si frapposero al compimento della sua vocazione.</p>
+					<p>Egli tese le sue ali d'angelo, e passò dal mondo dell'innocenza a quello della penitenza, senza toccare il fuoco. L'anima sua, monda di terrene passioni, poteva appropriarsi il detto dell'apostolo: <q>"La grazia comincia dove è spento l'orgoglio e quando l'uomo si è vuotato di sè, allora solo si riempie della sapienza."</q></p>
+					<p>Vuotato di sè egli era fino all'ultimo punto; la sua persona non gli apparteneva che a guisa di un abito tolto a prestito, e similmente considerava tutti gl'interessi degli uomini. Soleva ripetere con grande compunzione la teoria di <name type="person">San Tommaso</name>:</p>
+					<p><q>"Nell'universo ciascuna creatura è per la sua perfezione; le creature più ignobili sono per le più nobili, onde quelle che stanno al di sotto dell'uomo devono servire l'uomo; poi tutte le creature sono per la perfezione dell'universo, e infine tutto l'universo tende a <name type="entity">Dio</name> come a suo fine."</q></p>
+					<p>Questo scopo della perfezione lo investiva di un ardore continuo, lo traeva agli eccessi. Egli andava a cercare i miserabili nelle loro tane più infette, divideva con loro il suo pane e si coricava al loro fianco.</p>
+					<p>Egli visse a lungo coi beoni, coi ladri, cogli appestati, cogli atei; passò quale meteora nei covili infesti del vizio e del delitto; predicò la sua parola d'amore e di pace sui trivii dove le più sozze vendette si compivano in tragedie di sangue. Passò inascoltato, puro e disilluso, ed andò a portare la sua fede ardente in altri luoghi.</p>
+					<p>Egli volle conoscere il mondo dei felici che, non avendo nessuna lotta, nè di denaro, nè di sensi, nè di ignoranza, parevano i meglio disposti ad accogliere la grazia; ma anche qui naufragò nei gorghi più crassi del materialismo e della indifferenza. Le divine parole <q>"ciascuna creatura è per la sua perfezione"</q> sembrava che si fossero arrestate alla soglia di quel tempio di egoisti. Non vi erano fra loro creature nobili, nè ignobili, ma solo una massa uniforme e compatta di pilori e di ventri.</p>
+					<p>Andò, andò ancora, cercando con ansia amorosa là dove la fede gli indicava più sicuro tabernacolo ai suoi ideali, e fu l'ultimo, il più terribile dei disinganni.</p>
+					<p>Allora, afflitto, non scorato; misero, ma non solo, poichè <name type="entity">Dio</name> era nel suo cuore, si ridusse all'unica adorazione del Creatore, rimettendo a Lui, che guida la caduta delle foglie, anche la salute degli uomini. Calmato così di ogni sete terrena, il suo misticismo si rivolse tutto alla contemplazione.</p>
+				</div2>	
+				<div2 type='chapter'><head>* <lb/> * *</head>
+					<p>Fu allora che incominciò a vedere angeli erranti nell'accavallamento delle nubi, schiere di cherubini sui prati quando saliva la nebbia, e, se l'arcobaleno cingeva i monti, si buttava in ginocchio in preda all'estasi, tendendo le pupille verso le vette dove gli sembrava di scorgere profetiche parole scritte in lingue di fuoco.</p>
+					<p>Se dall'estasi religiosa passava all'umiltà della vita quotidiana, in ogni atto, in ogni detto portava una tale astrazione dal reale che ben presto vennero a parlare di lui come di un fenomeno, come di un essere vivente in sogno.</p>
+					<p>Aveva in quel tempo cura d'anime in un povero paesello, di cui egli era anche il più povero abitante; ma starsene scalzo sulla soglia della sua casetta, mangiare radici, rattopparsi da sè i propri abiti, non gli parevano cose contrarie alla sua divina missione.</p>
+					<p>Senonchè il fervore ascetico cresceva fuor di misura; già egli non beveva neppure una goccia del vino consacrato, avendo per il vino una ripugnanza da isterico, e meglio, quella santa mortificazione del palato che, pari a <name type="person">S. Girolamo</name>, gli avrebbe fatto sorbire senza accorgersene, olio per acqua. Di più si prese a vociferare che, nel suo stato continuo di rapimento, gli accadesse di compiere il suo parco asciolvere, consistente in una cipolla o in poche foglie d'insalata, prima di celebrare la messa.</p>
+					<p>E, a proposito della messa e delle altre funzioni domenicali, la sua condotta si faceva sempre più stravagante. Egli si rifiutava all'obbligo fisso della domenica, dicendo che tutti i giorni appartengono al <name type="entity">Signore</name> , e non si deve dedicare un giorno solo a chi è padrone dei secoli. Ma in tutte le stagioni, con tutti i tempi, i lavoratori se lo vedevano comparire davanti, ed inginocchiato in mezzo all'erba accompagnare l'opera dei campi con cantilene soavi e tenere o con inni ardenti di fede.</p>
+					<p>Una volta, mentre predicava in chiesa nell'occasione di una lunga siccità che minacciava di abbruciare tutte quante le messi, vide attraverso le finestre annuvolarsi il cielo e sui vetri cadere fitti fitti i primi goccioloni di una benefica pioggia.</p>
+					<p>Trasportato di riconoscenza, scese dal pulpito, e colle braccia, e colla voce e coll'esempio traendosi dietro la folla dei fedeli, li schierò tutti fuori del tempio, in aperta campagna, facendo loro ammirare la bontà della Provvidenza, e invitandoli a cantare nel pieno trionfo della natura il trionfo di <name type="entity">Dio</name>.</p>
+					<p>Dopo quel giorno, gli rimase l'abitudine delle prediche sotto il cielo.</p>
+					<p>Nei caldi meriggi dell'estate specialmente, egli raccoglieva i suoi parrocchiani all'ombra maestosa delle quercie e, umile in mezzo agli umili, parlava loro da fratello a fratelli, usando il dialetto famigliare a tutti, evitando le citazioni, servendosi della parola del <name type="entity">Signore</name>  nella sua forma più umana per poter giungere fino all'ultimo dei cuori, fino al piccoletto cuore dei fanciulli a cui egli permetteva di trastullarsi intorno a lui.</p>
+					<p>Un forestiero, capitato a sentire una di queste prediche, se ne mostrò scandalizzato, e osò dirgli apertamente che vi era una casa consacrata alla preghiera e che questa casa era il tempio. Ma egli rispose pronto colle parole stesse di <name type="person">S. Matteo</name>: <q type="spoken">"Vi dico che qui vi è alcuno maggiore del tempio."</q> Ed anzi, avendo in quel giorno dimenticata la croce colla quale soleva benedire il suo docile popolo, colse dal prato un fiorellino, e, con esso tracciando nell'aria le mistiche linee, pronunciò col massimo fervore questa poetica invocazione:</p>
+					<p><q type="spoken">"O Voi, dalla cui mano misteriosa prendo questo fiore in tutta la sua purezza, mentre il legno della croce è stato lavorato dagli uomini, Divino Fattore, questa purezza, questo profumo versateli sui vostri servi, così che noi possiamo, simili al fiore, seguire la vostra legge, e, chinando il capo alla mano che ci coglie, dire: Ei volle!"</q></p>
+				</div2>
+				<div2 type='chapter'><head>* <lb/> * *</head>
+					<p>I parrocchiani gli volevano bene, ma i suoi compagni del clero, che vedevano in lui un esempio troppo pericoloso, non tardarono a mormorare: e che egli era un mattoide, che a furia di prendere il <name type="book">Vangelo</name> alla lettera avrebbe ricondotta la società ai tempi barbari, che invece di andare cantando e predicando nei prati, avrebbe fatto meglio a curare la sua chiesa, la quale, meschinella, si covriva di ragnateli, e non si trovava mai olio nelle lampade, che era una vergogna.</p>
+					<p>Il buon prete cercò sulle prime di scusarsi, disse: <q type="spoken">- È vero, la lampada della chiesa manca spesso d'olio, perchè io non cerco mai un soldo alle mie pecorelle già così crudelmente tosate; anzi do loro spesso anche i piccoli proventi delle messe, e una volta staccai la lampadina d'innanzi al Santissimo per portarla ad una povera donna che aveva due bambini malati in una stalla, i quali nell'oscurità della notte gridavano continuamente, sì che lei correva dall'uno all'altro al buio chiamando la <name type="entity">Madonna</name> . Se ho fatto male, me ne pento, ma l'<name type="entity">Altissimo</name> vede la mia intenzione, e sa che non tolsi l'olio alla chiesa se non quando ebbi dato tutto il mio.</q></p>
+					<p>I suoi compagni lo accusarono ancora di soverchia indulgenza verso i parrocchiani, perchè li rimandava assolti di tutte le loro colpe.</p>
+					<p><q type="spoken">- Le loro colpe! -</q> esclamò allora, arrossendo di rossore e di sdegno. <q type="spoken">- Ma quali sono le loro colpe, poichè vivono al cospetto di <name type="entity">Dio</name> , riconoscendolo e adorandolo, poichè lavorano e poichè si amano gli uni cogli altri? e quando essi vengono umilmente a dirmi:<q>"padre, ho peccato"</q> come non dovrei compatirli se io stesso pecco, e <name type="entity">Dio</name> volle che l'errore fosse diffuso in tutte le cose create, sì che non sempre il melo dà pomi, nè la spica è sempre piena di grano, ed alcuna volta la gallina e la tortora si cibano delle proprie uova uccidendo i loro figliuoli?</q></p>
+					<p>A codeste ragioni gli avversari si guardavano tra loro sogghignando e scuotendo la testa.</p>
+				</div2>
+				<div2 type='chapter'><head>* <lb/> * *</head>
+					<p>Un ultimo fatto diè il crollo alla riputazione del troppo semplice pastore, e fu quando lo trovarono un giorno con un lembo di sottana ritagliata grottescamente fin sopra il ginocchio, così ridotta da lui stesso per averne regalato un brano a un fanciullino ignudo.</p>
+					<p><q type="spoken">- Tutte queste follie stanno bene nelle vite dei santi - mormoravano i figli dei farisei - perchè là in fondo nessuno ci pesca, e si può credere benissimo che a quei tempi fossero necessarie; ma in un secolo di lumi, proprio quando il clero è accusato di oscurantismo, dovremo permettere simili puerilità?</q></p>
+					<p>Il decoro della chiesa, la inviolabilità dei dogmi, il carattere sacro di sacerdote, la responsabilità di parroco, l'opportunità, il progresso, tutto fu preso ad argomento, e tutto riuscì per togliere al prete la sua piccola cura.</p>
+					<p>Egli se ne partì, un mattino d'inverno, recando nell'una mano il <name type="book">Vangelo</name>, nell'altra un paio di passeri, che gli erano caduti tramortiti ai piedi.</p>
+					<p>Lungo il sentiero dei noccioli che la brina aveva cristallizzato, qualche contadino lo vide camminare col suo passo svelto, col volto sereno, l'occhio rivolto al Cielo; ed una donna, che gli si era accostata per baciargli la tonaca, lo udì mormorare in tuono sommesso fra la preghiera e il canto: <q type="spoken">"Siate lodato e benedetto o <name type="entity">Signore</name> , in tutte le azioni vostre. Voi sapete perchè la rondinella emigra, perchè la foglia appassisce e cade, perchè il chicco della grandine percuote l'uva matura, perché il bruco immondo sale sopra lo stelo della rosa e lo succhia. Tutto ciò che Voi permettete, o mio  <name type="entity">Dio</name> , ha la sua ragione nella essenza stessa del vostro potere. Io vi saluto e vi ringrazio. Eccomi nelle vostre mani."</q></p>
+				</div2>
+				<div2 type='chapter'><head>* <lb/> * *</head>
+					<p>Da quel giorno aveva abbandonato per sempre il consorzio degli uomini.</p>
+					<p>Lassù, sulla montagna, in una piccola baita, vicino alla natura, che era stata la sua amica in ogni tempo e quasi la madre sua, si ritrasse solo; e la sua vita, che semplice era stata sempre, si raffinò ancor più in un crescendo immateriale, in una contemplazione indefinita di tutto ciò che era l'opera di <name type="entity">Dio</name> . Gli accadeva talvolta di non guardare nulla, nè il cielo, nè i monti, nè i boschi, di non respirare nemmeno; ma, assorto in un rapimento interno, ripetere tra sé: <q>"Esisto!"</q> con una tale estasi del proprio mistero che mille mondi aperti al suo sguardo non gli avrebbero potuto dare più intensa gioia.</p>
+					<p>E allora, sì, visse come egli aveva sognato, dividendo la vita degli astri, del fiore, dell'ape, del vento, della fonte, del sasso; bevendo la rugiada nel concavo delle foglie, coricandosi sotto le stelle, così riamato nel suo amore per la natura che il freddo non lo toccava, nè lo molestava il sole, e gli umidi prati non serbavano per lui nessun veleno.</p>
+					<p>Tutto ciò che era animale sembrava fondersi in quel contatto ininterrotto di forze vegetali. La completa assenza dei suoi simili, l'astensione dai cibi di carne e dalle bevande alcooliche, avevano purificato in tal modo tutte le cellule del suo io che perfino il volto, l'espressione, i movimenti erano quelli di un essere a parte, quasi un anello gettato al di là dell'uomo, un tentativo sublime e pazzo di congiungersi alla divinità incorporea.</p>
+					<p>Toccava allora la fine della gioventù, il momento disperato dei grandi ardori e delle supreme battaglie, quando, nella pienezza delle sue forze, la volontà dell'uomo domina sensi e pensiero.</p>
+					<p>Serrate le braccia sul petto a guisa di corazza, egli amava guardare dalle più alte rupi il fondo della valle, dove una via biancheggiante fra i castagni conduceva alla città. Il suo occhio acuto di montanaro gli faceva scorgere tutti i particolari della discesa lungo la linea serpeggiante del sentiero, e la sua fervida immaginazione, eccitata dalla solitudine, lo riconduceva sulla scena del mondo, ricordandogli parole e cose, fatti e persone, con una evidenza tale che egli aveva bisogno di gettarsi indietro, di alzare la testa al suo cielo ed alle sue vette per persuadersi che il passato era morto per sempre. Come si sentiva felice allora!</p>
+				</div2>
+				<div2 type='chapter'><head>* <lb/> * *</head>
+					<p>Tutte le idealità si erano congiunte allo scopo unico della sua esistenza: vivere in <name type="entity">Dio</name> . Non nato per il consorzio umano, aveva pure sostenuta la sua parte d'uomo, aveva tese le braccia e l'anima verso i suoi simili; li aveva amati, sorretti, confortati: aveva vissuto con loro accanto alle loro miserie ed ai loro vizi; aveva pure frantumato il cuore per darne un pezzetto a ciascuno; era stato volte a volte padre, fratello, maestro, servo. Aveva il diritto di appartenersi tutto intero, di offrirsi anima e corpo, sentimento ed azione, al suo eterno amore.</p>
+					<p>E come da quelle vette gli pioveva un senso di pace ineffabile, una coscienza alta e serena della propria individualità! Poiché non aveva chiesto nulla al mondo, doveva aspettarsi tutto da <name type="entity">Dio</name> . L'invisibile gli apparteneva. Egli si sentiva re dell'ignoto, del susurro dei venti, dell'ombra dei boschi, dello sfolgorìo delle stelle - re del mistero, a cui le estasi profonde dell'anima non negavano alcuna delle loro voluttà, per cui le leggi del creato, spogliandosi di ogni significato materiale, ritornavano alla pura essenza divina, alla irradiazione di un amore sublime ed occulto - re dei re, poichè aveva disdegnato la gloria, la ricchezza, il piacere, ogni gioia terrena, ogni patria mortale - e vicino a lui, e sopra di lui, non stava altro che Uno.</p>
+				</div2>
+			</div1>
+			
+			<div1 type='part' n='2'><head>PARTE SECONDA</head>
+				<div2 type='chapter'><head>MARIA.</head>
+					<p>Solo così rimase due anni, poi uno strano avvenimento cambiò la sua vita.</p>
+					<p>Gli esseri umani più vicini a lui erano una famiglia di pastori, i quali, avendo la casa a mezza montagna, salivano nei mesi caldi fino a quelle vette per far pascere la scarsa erba che non avrebbero potuto raccogliere altrimenti. Vicini veramente non erano, ma neanche così lontani che non potessero scambiarsi qualche servigio.</p>
+					<p>Ora avvenne che un giorno il pastore corse al prete, chiamandolo d'urgenza presso una donna, una bracciante che, attraversando la montagna in cerca di lavoro, era stata improvvisamente arrestata dal più imperioso e grandioso dei misteri e temendo di morire voleva confessarsi.</p>
+					<p>Due gemelle nacquero nella notte, la madre morì. - Egli non giunse in tempo per accogliere la confessione della straniera, ma solo per benedirla, e per prometterle che raccoglierebbe le orfanelle.</p>
+					<p>Le prese in braccio, e fu subito invaso da un istinto di paternità, istinto mistico, tutto evangelico, come quello che guidava <name type="person">S. Francesco di Paola</name>. Più che due bimbe, parevano a lui due gigli del  <name type="entity">Signore</name> , fioriti sul suo sentiero.</p>
+					<p>Battezzarle bisognava prima di tutto, e poichè la morente nulla aveva detto in proposito, ed i pastori suggerivano nomi strani o volgari, chiesto consiglio là dove egli sempre soleva, cercò la sua ispirazione nelle nuvole, nelle stelle, nell'azzurro tenero del cielo; e le nuvole e le stelle e l'azzurro gli risposero un solo nome: <name type="person">Maria</name>.</p>
+					<p>Egli l'accolse con entusiasmo. Nessun altro poteva eguagliare questo in grazia ed in purezza. <name type="person">Maria</name> l'una e <name type="person">Maria</name> l'altra, senza preferenza e senza scelta; perchè, con qual nome chiamare la seconda senza menomarla, se la prima era <name type="person">Maria</name>? Due <name type="person">Marie</name>, due benedizioni, due consacrazioni.</p>
+					<p>La moglie del pastore si incaricò di allattare le gemelle coll'aiuto di una capretta, e il solitario andava spesso a vederle, meravigliato dei loro progressi, colla curiosità del nuovo mistero e coll'ardore di un nuovo compito.</p>
+					<p>Quando poi vennero i rigori dell'inverno, lasciò a malincuore che la nutrice se le portasse con sè alla casa bassa, e fu una gran festa quando le rivide col ritorno della primavera.</p>
+				</div2>	
+				<div2 type='chapter'><head>* <lb/> * *</head>
+					<p>Questa alternativa di dolore per l'abbandono e di letizia per il ritorno durò qualche anno, finchè i pastori, attratti da altri interessi, si allontanarono dalla montagna, e le bimbe rimasero a lui. Che fare? Aveva solennemente promesso alla loro madre morente di non abbandonarle.</p>
+					<p>Si compì allora una terza metamorfosi nel cuore del mistico. Egli, che si era staccato in modo assoluto dai suoi simili, vi ritornava guidato dal sentimento nuovo; un sentimento che non era l'amore degli uomini, che non era l'amore di  <name type="entity">Dio</name> , sibbene un fascino ignoto di una dolcezza grande - il misterioso potere che l'innocenza esercita sulla sapienza e la debolezza sulla forza - la attrazione irresistibile di quelle due creaturine che  <name type="entity">Dio</name>  gli aveva dato da custodire.</p>
+					<p>Per una improvvisa intuizione che sapeva del miracolo, egli rammentò cento cose dimenticate dall'infanzia; la sua culla, le cure di sua madre, perfino le canzoni che gli avevano allora accompagnati i sonni. La sua mano diventava leggera toccando le piccole membra, scorrendo sui capelli sottili inanellati. Aveva delicatezze strane, pudori sublimi, risorse immaginose e semplici, quali poteva suggerirgliele la sua mente ardente e casta. Niente lo imbarazzava, niente lo tratteneva. Egli guardò in qual modo gli uccelli tessono i nidi, e preparò alle sue colombe un nido di foglie di faggio e di pelli di agnello. Al duro pane di cui soleva cibarsi, provveduto una volta all'anno, aggiunse il latte fresco di una giovane mucca; e poichè l'erbe ed i fiori, il purissimo aere, il profumo dei pini, lo splendore del cielo cantavano intorno l'inno della salute e della gioia, non cercava altro.</p>
+					<p>Neanche il pensiero dell'avvenire riusciva a turbarlo; rimetteva l'avvenire nelle mani stesse di Chi aveva guidato il passato.</p>
+				</div2>
+				
+				<div2 type='chapter'><head>* <lb/> * *</head>
+					<p>Qualche volta gli veniva uno scrupolo. Non era egli troppo orgoglioso? o che, pensava di fondare una nuova società indipendente dalle leggi e dai costumi che reggono l'altra? S'immaginava di essere l'<name type="person">Adamo</name> di una novella stirpe? Si teneva in tanto concetto da sprezzare tutti gli uomini, o pretendeva forse di togliere al mondo il dolore ed il peccato?</p>
+					<p>Passava delle ore intere meditando, scrutando la propria coscienza, pronto a flagellarsi se si fosse trovato in difetto d'orgoglio. <q type="spoken">- O mio  <name type="entity">Dio</name>  - </q> diceva alla fine <q type="spoken"> - non siete Voi che mi avete mandato queste infelici? Voi che le abbandonaste a me? Perché le avreste fatte nascere quassù, in circostanze così fuori dell'ordinario, se non lo aveste voluto? Ma se mi inganno, o  <name type="entity">Signore</name> , parlate al vostro servo. Egli vi ubbidirà; egli tornerà ad allacciarsi i calzari e, tagliato un bastone da queste quercie, si porrà in cammino per la strada che Voi gli indicherete.</q></p>
+					<p>Il riso delle bambine interrompeva spesso la sua preghiera, e sembrava a lui che  <name type="entity">Dio</name>  gli rispondesse per mezzo di quelle bocche innocenti. Le prendeva per mano, e facendole inginocchiare nel posto dove meglio dominava una larga estensione di orizzonte, diceva loro: <q type="spoken">- Adorate il vostro<name type="entity">Padre</name>celeste.</q></p>
+					<p>Le bimbe tuttavia incominciarono a chiamare lui stesso "padre" e quando ciò avvenne per la prima volta, la fronte dell'asceta si coperse di un vivo rossore, tremò in tutte le fibre, e sentì balzare il cuore con un tale tumulto di dolcezza che mai aveva provato in vita sua l'eguale.</p>
+					<p>Un turbamento giovanile, pari a quello della  <name type="entity">Vergine</name> che ode parlar d'amore, lo deliziava inconsapevolmente sotto le carezze delle due bambine, e un profondo rispetto, quasi un senso di adorazione, si impadroniva di lui via via che le piccine dimostravano cogli atti ingenui di attendere tutto da lui, per cui sentiva di dover esser loro ad un tempo padre, madre, asilo, sicurezza, fede.</p>
+					<p>E per quante gioie gli avessero date le sue estasi mistiche, per quanto, portando la fiaccola della carità in mezzo ai fratelli, egli avesse raccolto a volte soddisfazioni e compensi, questa nuova fase della sua vita gli appariva la più completa.</p>
+					<p>Le sue preghiere, per essere più brevi, non erano meno intense. Egli continuava lo spirito della preghiera nella occupazione materiale di ammanire il cibo, di accendere il fuoco per riscaldare le piccine, di rispondere ai loro gridi e ai loro pianti con parole dolci, che a volte erano ricordi del linguaggio materno, a volte versetti della <name type="book">Bibbia</name>, a volte ritornelli di nenie e di canzoni popolari.</p>
+					<p>Infilava l'ago per preparare alle innocenti caldi panni ritagliati dalle sue sottane; fasciava i loro piedini con pelli di animali, e metteva il pelo all'interno, perché la delicata epidermide si trovasse meglio riparata.</p>
+					<p>Nei giorni peggiori, ricorreva a cento invenzioni ingegnose per trattenere le due bimbe nella baita. Dei fuscelli, una montagna di sassolini, vecchi bottoni delle sue tonache, tutto era convertito in trastullo, tutto serviva a giuochi, celie e risa. Ma appena spuntava un raggio di sole, via colle bimbe in collo, dentro la neve, attraverso i boschi, addestrandole alla ginnastica dell'aria frizzante, alla vista degli immensi orizzonti puri.</p>
+					<p>E raccattando lungo la via erbe e radici, ne teneva deposito per combattere le effimere febbri infantili, per poter allestire all'occasione una bibita salutare alle sue dilette, per dar loro un ristoro nelle lunghe notti invernali, mentre fuori fischiava e gemeva il rovaio, e dentro alla baita il focherello delle betulle e dei pini diffondeva un tiepido calore di nido...</p>
+				</div2>
+				
+				<div2 type='chapter'><head>* <lb/> * *</head>
+					<p>Una grande bellezza fu l'estate in cui le bimbe entrarono nel loro settimo anno. L'età della ragione! pensava il solitario, tutto compreso dei nuovi doveri che gli incombevano, mentre aumentava in lui quel senso di rispetto per le creature che  <name type="entity">Dio</name>  gli aveva mandate, onde non procedeva a nessun divisamento senza essersi prima consultato colla propria coscienza.</p>
+					<p>Crescerle nell'amore di  <name type="entity">Dio</name>  e della natura, sviluppare contemporaneamente la maggiore forza fisica e la più alta potenza ideale. Questo il còmpito.</p>
+					<p>Sotto i boschi densi d'ombra sostavano negli ardenti meriggi, e come le piccolette si divertivano a rincorrere le farfalle ed a snidare i grilli, egli ne prendeva argomento per spiegare le leggi dell'amore universale, per istillare nei giovani cuori la pietà, la dolcezza, la comprensione sensibile di ogni sofferenza e di ogni tripudio, riportandoli alla cagione unica del tutto.</p>
+					<p>Egli le obbligava a guardare ed a riconoscere i mille mondi che si agitavano intorno a loro nel raggio di sole e nella gocciola d'acqua, nell'erba, nelle piante, nell'aria. Del mondo propriamente detto non parlava mai; esse potevano credere che finisse ai piedi della loro montagna. Ma quel dominio assoluto e libero e puro, quella ignoranza altera di tutto ciò che non fosse semplice e casto come esse, le cresceva in una nobile fierezza, in una limitazione regale di idee e di affetti.</p>
+					<p>Il prete parlava loro di  <name type="entity">Dio</name> come di un<name type="entity">Padre</name>pieno d'amore e di magnificenza; dipingeva le gioie del paradiso con colori smaglianti, le cantava con strofe poetiche, ma giammai parlò dell'inferno. Esse non conobbero neppure il nome dei peccati, neppure la parola peccato. Similmente virtù, che anche di rado usciva dalla bocca del prete, aveva per esse un significato complesso di bellezza, che non le conduceva a nessuna antitesi brutale, che era semplicemente ciò che doveva essere.</p>
+					<p>Perchè rivelare la colpa in quell'<name type="place">Eden</name>? Chi avrebbe osato, chi avrebbe potuto introdurvela? L'asceta si esaltava in tale concetto di purità assoluta; gli sembrava di vedere alla falda della montagna un arcangelo colla spada fiammeggiante nell'attitudine di difenderla. Il suo sogno si mutava in realtà. Un mondo nuovo sorgeva dai ruderi della civiltà imputridita, <name>Jehova</name> lo permetteva. Egli aveva parlato, dal sangue di <name>Cristo</name> spuntava finalmente il fiore del perdono. Gli uomini potevano rialzarsi. Ecco la novella!</p>
+					<p>In una di queste ore d'estasi, mentre fremevano per l'aria i pollini divelti dai rododendri in fiore, egli tuffò le mani negli aromi sparsi, e, imponendole sul capo delle gemelle, mormorò nel colmo dell'ardore, quasi improvvisando: <q type="spoken">- Ti segno col segno della croce, ti confermo col crisma della salute, nel nome del <name type="entity">Padre</name>, del <name type="entity">Figlio</name> e dello <name type="entity">Spirito Santo</name>.</q></p>
+					<p>Una lagrima di immensa tenerezza scese dagli occhi del prete, ed egli la posò sulle fronti riunite delle due bimbe. Sorrisero esse, e dissero:</p>
+					<p><q type="spoken">- Padre, quanto ci ami!</q></p>
+					<p>Crescendo l'età, crescendo le domande e le risposte, e sviluppandosi in ognuna delle gemelle una personalità propria e distinta, un sol nome per entrambe non bastò più, e quasi senza accorgersene, senza un ragionamento voluto, egli incominciò a chiamare la prima <name type="person">Mària</name>; restando alla seconda, per una impercettibile gradazione di tenerezza, il nome intatto di <name type="person">Maria</name>.</p>
+					<p>Si somigliavano, ma <name type="person">Maria</name> era un po' più gracile della sorella, e l'anima sua sensibilissima era meglio portata a interpretare la invisibile malinconia delle cose. Meno viva, meno inquieta, ella stava volentieri accanto al prete, assorta in un muto rapimento, intanto che <name type="person">Mària</name> colla foga di un giovane capriolo correva su e giù per i sentieri, lanciando sassi, strappando rami, inerpicandosi sulle alture più difficili e pericolose.</p>
+					<p><name type="person">Mària</name> cantava, cantava per un bisogno irresistibile di sfogo. Non conoscendo nessun motivo musicale, ignorando anche che cosa volesse al giusto dir musica, modulava in cento toni diversi il suo nome e quello della sorella, onde la valle echeggiava a lungo dei due nomi: <name type="person">Mària</name>, <name type="person">Maria</name>! <name type="person">Mària</name>, <name type="person">Maria</name>! che si ripercotevano sulle montagne circostanti con una cadenza strana di canzone selvaggia.</p>
+				</div2>
+				<div2 type='chapter'><head>* <lb/> * *</head>
+					<p>Ella amava pure i turbini e le tempeste.</p>
+					<p>Quando la raffica soffiava violenta e le punte dei ghiacciai si illuminavano al bagliore dei lampi, <name type="person">Mària</name> provava una gioia strana, tumultuosa. Intanto che la dolce sorella, chiusa nella capanna, accompagnava il prete nel recitare le litanie della  <name type="entity">Vergine</name> , ella correva ad esporsi nella lotta cogli elementi, a ricevere attraverso il corpo le sferzate del vento, affrontandolo arditamente e sfidandolo colla testa alta, mentre esso le scioglieva i capelli, le strappava le vesti, la mordeva e la flagellava, costringendola tutta palpitante a ridosso di un albero, senza respiro, senza voce, col volto che si velava dalle chiome scomposte, e le labbra aperte, rivolte in alto a bevere i primi goccioloni della pioggia.</p>
+					<p>Tutto ciò che fosse battaglia la attirava, e la sua giovanile immaginazione prestava anima e volontà a qualunque oggetto.</p>
+					<p>Aveva scelto per residenza favorita un picco, il più sporgente nell'abisso, dal quale dominava da regina, piacendosi al tetro rumore del torrente che muggiva in fondo. Vi aveva spesso invitato la dolce sorella, che timida e paurosa non ardiva seguirla, onde ella restavasene sola, affascinata dal nero vuoto, dove i suoi occhi si fissavano con un'ansia inquieta di ricerche; e quando la vertigine incominciava a prenderla, quando le si mozzava il fiato, quando il battito del cuore le si arrestava improvvisamente come sotto la stretta di una mano misteriosa, gettava un lungo urlo pieno di voluttà e di terrore. Si allontanava allora pallida e muta.</p>
+					<p>D'estate, nelle ore in cui il sole percuoteva la montagna, seduta a testa nuda sul suo picco, si tuffava in un bagno di raggi, piacendosi a sentire i morsi del calore, resistendovi con una sensazione di dilatamento nella pelle, dì immedesimazione, quasi, che somigliava ad una conquista.</p>
+				</div2>
+				
+				<div2 type='chapter'><head>* <lb/> * *</head>
+					<p>Calma e semplice era <name type="person">Maria</name>. Ella viveva in uno stato continuo di tenerezza e di pace profonda.</p>
+					<p>Più che il correre, preferiva l'andare tranquillo lungo i sentieri, e tra i sentieri preferiva i più verdi, i più teneri, quelli dove spuntavano fiori.</p>
+					<p>Amava i fogliami vaporosi, le chiazze di luce tra albero ed albero; si compiaceva del canto degli uccelli, del volo delle farfalle, dell'umile ed operosa vita degli insetti. I fiori l'attiravano dolcemente: ella si guardava bene del calpestarne qualcuno, chinandosi a raddrizzarlo, se lo aveva urtato, seguendone lo sviluppo con sguardo amoroso; oggi appena una gemma, domani un bocciolo, poi il fiore. Maravigliata sempre e commossa davanti a questo mistero, diceva talvolta: <q type="spoken">- Padre, io penso che i fiori hanno un'anima.</q></p>
+					<p><q type="spoken">- L'ho pensato tante volte anch'io; tutto ciò che è uscito dalle mani del <name type="entity">Signore</name>  ha un'anima di certo.</q></p>
+					<p>Ella diceva ancora:</p>
+					<p><q type="spoken">- Padre, i piccoli grilli, le formiche e le lucertoline sanno essi che io li amo?</q></p>
+					<p><q type="spoken">- Credo che lo sapranno. Noi sappiamo bene che i grandi alberi ci amano.</q></p>
+					<p><q type="spoken">- Oh! sì; ci amano! -</q> esclamava <name type="person">Maria</name> piena di un ardore mistico - e ci ama pure la montagna, l'alta montagna buona, che ci protegge come una madre, sui cui fianchi noi ci appoggiamo, e le dormiamo in grembo.</p>
+				</div2>
+				
+				<div2 type='chapter'><head>* <lb/> * *</head>
+					<p>L'idea di questo amore universale la cullava in una specie di estasi, come nell'abbandono di una bontà sconfinata, dove non sorgeva mai neppure la più lieve ombra di dubbio o di paura. Sorella dei fiori, delle erbe, degli insetti, degli uccelli, viveva della loro pace profonda nella assoluta ignoranza del male.</p>
+					<p>Una lontana e confusa immagine della società le appariva a tratti nella lettura del <name type="book">Vangelo</name> e nelle spiegazioni che il solitario ne faceva; ma tutto ciò si presentava alla fanciulla come una visione, come l'evocazione di un mondo spento, non invidiabile, nè desiderabile; e, nella sua anima straordinariamente portata alle oscurità del mondo soprasensibile, i fatti, i nomi, tutta quella storia misteriosa dell'Antico e del Nuovo Testamento si mescevano nel simbolismo di un sogno prolungato ed infinitamente soave. Le sembrava, a volte, di aver vissuto in quella terra fatale di <name type="place">Galilea</name>, di aver udita la voce di <name>Gesù</name>, di averne seguito i passi, di essere stata sotto la croce a beverne il sangue, e per l'amore di Lui essere risorta a questa nuova vita di intera purezza, di luce imperitura.</p>
+					<p>Una grande fantasia poetica era in lei, per cui respirava in un'atmosfera di luce, e stava in rapporti ideali con una quantità di persone e di cose, confondendole soavemente per una ripugnanza innata delle verità materiali, onde spesso le stelle e gli Angeli, una rosa e la  <name type="entity">Madonna</name>, il sole e  <name type="entity">Dio</name>  si identificavano nel suo pensiero, formavano quella catena di splendori e di gioie sante entro cui si moveva la sua anima.</p>
+					<p>Alcune parole, alcune frasi dei libri sacri la trasportavano in un delirio di ammirazione; per esempio, tutti i simboli relativi a <name type="person">Maria</name> <name type="entity">Vergine</name> , che, dopo di essere stata paragonata all'aurora foriera del sole, venne ancora ravvisata nell'Arca dell'alleanza, fabbricata di legno incorruttibile, nel roveto di <name>Mosè</name>, che arde tutto e pure non si consuma, nella verga di <name>Aronne</name>, che lungi dall'insterilire mette fiori, nel vello di <name>Gedeone</name>, che solo rimane molle e coperto di rugiada mentre la terra intorno è bruciata; nell'orto chiuso, d'onde emanano profumi di paradiso, e nella rosa di <name type="place">Gerico</name>, nel cedro del <name type="place">Libano</name>, nel cipresso di <name type="place">Sionne</name>, nella palma di <name type="place">Cades</name>, nel pallido ulivo dei campi, nel leggiadro platano che costeggia i torrenti.</p>
+					<p>Su queste parole misteriose, su queste similitudini ignote, piene di una occulta e sublime poesia, la dolce fanciulla spargeva lagrime di una commozione così intensa che le si accresceva per esse l'infinita felicità di vivere.</p>
+				</div2>
+				
+				<div2 type='chapter'><head>* <lb/> * *</head>				
+					<p>La piccola baita, dal giorno in cui il prete l'aveva scelta per sua dimora, si era venuta man mano dirozzando per la presenza delle due fanciulle.</p>
+					<p>All'unica cameretta il solitario ne aveva aggiunta un'altra, lavorando a quest'uopo un inverno intero; prima per abbattere gli abeti e poi per tagliarli e piallarli rozzamente, tanto che potessero connessi insieme formare le tre pareti che occorrevano al nuovo edificio.</p>
+					<p>Le gemelle lo avevano aiutato con ardore, e non avendo mai visto nè fabbriche, nè operai, nè cosa alcuna al mondo, esultavano ad ogni scoperta, ad ogni felice risultato, così divertite dalla nuova occupazione che non videro fuggire l'inverno. Piene di zelo, portavano legni, limavano chiodi, foravano, ammucchiavano, docili all'insegnamento del loro buon padre; mentre <name type="person">Maria</name> trovava modo di unire anche a questa occupazione materiale le sue visioni grandiose e poetiche e pensava che così avevano lavorato gli uomini primitivi per edificare il tempio di <name>Salomone</name>, dove si cantavano le glorie di  <name type="entity">Dio</name> .</p>
+					<p>All'olezzante cedro del <name>Libano</name> ella sostituiva, con eguale trasporto di poesia e di gratitudine, il pino silvestre dal forte profumo resinoso.</p>
+					<p><q type="spoken">- Come odora buono! - </q>diceva. <q type="spoken">- Tanto buono e tanto forte!</q></p>
+					<p>E già amava quelle brune pareti, dove scorgeva, come in tutto il resto del creato, una catena ininterrotta di benefizi; le toccava con amore, con devozione. Non poteva neanche dire di essere felice: perchè la felicità per lei era lo stato naturale di tutti gli esseri viventi; ma tale intima sensazione la esprimeva nell'irradiamento di tutto il volto e in un crescendo di vitalità, per cui le accadeva di serrarsi stretta la sorella fra le braccia, quasi il suo cuore non fosse abbastanza grande per contenere tanta gioia.</p>
+					<p>Alla famiglia di pastori che avevano allevate le due piccine un'altra famiglia era subentrata, e nuovi rapporti di una o due volte l'anno recavano ai solitari della baita gli oggetti di prima necessità: volontario tributo che quella buona gente offriva al <name type="entity">Santo</name>. Ognuna di queste visite era un tale avvenimento per le gemelle che solamente l'aspettarle e il rammentarle bastava a riempire il loro isolamento. Non erano che rozzi pastori, ma erano anche i soli esseri umani che giungessero fin lassù.</p>
+					<p>Quando la cameretta nuova fu compita, misurò quattro passi in largo e cinque in lungo, e, per suggerimento dei pastori, venne confitta ad una delle pareti, la meglio riparata, una specie di alcova, molto simile ai lettucci delle cabine nei bastimenti e precisamente eguale a quelle che usano molti montanari, sia per economia di spazio, sia per tenersi più caldi. In questa nicchia, sopra un saccone ripieno di foglie bene asciutte, le gemelle dormirono per la prima volta al soffio dei venti di marzo, che urlavano nelle gole alpine; ma tenendosi abbracciate, sognarono insieme che le nevi erano già scomparse, che i sentieri si coprivano di rose...</p>
+				</div2>
+			</div1>
+			
+			<div1 type='part' n='3'><head>PARTE TERZA</head>
+				<div2 type='title'><head>MISTERO.</head>
+					<p>Un giorno tutta la valle, le vette e i boschi folti d'ombra primaverile rimbombarono per un colpo formidabile e strano. Sembrava un muggito, un urlo prolungato d'eco in eco, il grido di un appello disperato, o lo scoppio di una collera terribile. Eppure il cielo era del più limpido azzurro, e fin dove l'occhio poteva vagare non scorgevasi che la linea immobile dei prati, dei piccoli sentieri onduleggianti sul pendio. Nel fitto degli alberi cantavano tranquillamente gli uccelli, e le farfalle si libravano a volo punteggiando di macchie azzurre, bianche e dorate l'uniforme verdezza delle siepi.</p>
+					<p><q type="spoken">- Padre, che è ciò?</q></p>
+					<p>Erano accorse le fanciulle, ed abbracciavano sbigottite i ginocchi del loro protettore.</p>
+					<p>Un secondo scoppio e un terzo li tenne per qualche istante riuniti e stretti, nell'ansia di un silenzio che sembrava non dovesse rompersi più.</p>
+					<p>Finalmente il solitario rialzò le fanciulle, e disse:</p>
+					<p><q type="spoken">- Non temete. Riconosco questi rumori. Sono gli uomini che lavorano per cambiare l'opera del Creatore. Epperò, se <name type="entity">Dio</name> lo permette, inchiniamoci e preghiamo per loro.</q></p>
+					<p>Pregarono esse come solevano, insieme al buon padre, senza comprenderlo mai interamente Però verso sera, essendo cessati i rimbombi, <name type="person">Mària</name> s'accostò di nuovo e chiese:</p>
+					<p><q type="spoken">- Chi sono gli uomini?</q></p>
+					<p><q type="spoken">- I nostri fratelli, lo sai.</q></p>
+					<p><q type="spoken">- I pastori?</q></p>
+					<p><q type="spoken">- I pastori ed altri.</q></p>
+					<p><q type="spoken">- E dove abitano?</q></p>
+					<p><q type="spoken">- Nel mondo.</q></p>
+					<p><q type="spoken">- E che cosa fanno?</q></p>
+					<p>Ristette il solitario, dubbioso sulla risposta. <name type="person">Maria</name> intervenne:</p>
+					<p><q type="spoken">- Il mondo è grande, grande, grande. Contiene monti, contiene mari, e dappertutto i figliuoli di <name>Adamo</name> vivono ammirando e lodando <name type="entity">Dio</name> . Non è così?</q></p>
+					<p><q type="spoken">- Sì, è così -</q> rispose egli, ponendo la mano sulla testa della sua diletta, e guardandola con inesprimibile dolcezza.</p>
+					<p><name type="person">Mària</name>, un po' pallida e collo sguardo inquieto, interrogò di nuovo:</p>
+					<p><q type="spoken">- Quale è il lavoro che gli uomini intraprendono per cambiare l'opera di  <name type="entity">Dio</name> ?</q></p>
+					<p>Ora <name type="person">Maria</name> aspettava ansiosa la risposta che il<name type="entity">Padre</name>avrebbe data alla sorella.</p>
+					<p><q type="spoken">-  <name type="entity">Dio</name>  lascia piena facoltà all'uomo di impiegare come egli crede la sua intelligenza, e l'uomo qualche volta per suo utile atterra alberi, fora montagne e uccide gli animali. Tutto ciò è permesso. Non abbiamo noi atterrato i più bei pini e gli abeti più poderosi per fabbricare la nostra casetta? Tanta è la bontà di  <name type="entity">Dio</name>  che fa nostri tutti i beni della terra.</q></p>
+					<p>Ancora il prete parlò a lungo quella sera; e quando ebbe finito di parlare, aperto il <name type="book">Vangelo</name>, lesse tutto il capitolo X dei fatti degli Apostoli, e sul fatto della vela calata dal cielo a <name type="person">Pietro</name> e della voce che gli disse: "Le cose che  <name type="entity">Dio</name>  ha purificate, non farle tu immonde." <name type="person">Maria</name> cominciò a chiudere gli occhi, assorta in una visione di pace; mentre la sorella, sempre pallida e collo sguardo inquieto, sembrava ascoltare, fuori, nelle ombre della notte, la voce misteriosa degli uomini.</p>
+				</div2>
+				
+				<div2 type='chapter'><head>* <lb/> * *</head>
+					<p><q type="spoken">- Sorella, tutto pieno di fiori è il bosco; andiamo a coglierli.</q></p>
+					<p><q type="spoken">- Non ho voglia di cogliere fiori.</q></p>
+					<p><q type="spoken">- Spuntano già le fragole; ne ho viste ieri sul ciglio della montagna, ma non le presi perchè tu non c'eri. Vieni?</q></p>
+					<p><q type="spoken">- Non ho voglia di cercare le fragole.</q></p>
+					<p><name type="person">Maria</name> tacque. Cheta cheta sedette ai ginocchi della sorella, e coi fili d'erba che trovava a portata della mano si pose a intrecciare piccoli panieri, sbagliando spesso e ricominciando con una grande pazienza, senza levare gli occhi. I suoi piedi nudi posavano in un raggio di sole, ed ella si guardava bene dal moverli, per non disturbare il viaggio di un piccolo coleottero che andava e veniva portando bottino al nido.</p>
+					<p>Calma nell'aspetto, era intimamente lieta pensando che quei panierini avrebbero servito a tante altre bestiuole, e già colla immaginazione li vedeva biancheggiare di ovicini, animarsi nel tripu <name type="entity">Dio</name> di aluccie svolazzanti, di minuscoli corpi iridati di ogni più bel colore.</p>
+					<p><q type="spoken">- Aspettate, aspettate -</q> mormorava piano colla tenerezza di una giovane madre <q type="spoken">- la farò io la burla, vi preparerò io una bella casetta. Aspettate, bellini, carini... -</q> Cercò altre parole, ma ella non ne sapeva poi molte delle parole, e, tutta intesa alla gioia del suo lavoro continuava a ripetere: carini, carini.</p>
+					<p>Sembrava che essi ascoltassero. Su, su per i piedi, sul lembo del povero gonnellino si trascinavano gli insettucci; e i moscerini le volavano in giro, e una lunga libellula tutta azzurra colle ali d'argento le riposò in grembo per qualche minuto.</p>
+					<p><q type="spoken">- Oh! oh! -</q> esclamò <name type="person">Maria</name> sorridendo, rossa in viso per il piacere <q type="spoken">- sono io forse la <name>Madonna?</name></q></p>
+					<p>Un pudore religioso la prese, quasi un dubbio s'ella fosse veramente degna che gli insetti di  <name type="entity">Dio</name>  le mostrassero tanta deferenza. Ella sapeva che parecchi santi erano stati amati così dalle piccole creature che gli uomini disprezzano. E guardava nel suo grembo la libellula; trattenendo il fiato, colle braccia aperte e gettate indietro per non spaventarla, tutta invasa, tutta tremante di una dolcissima confusione, immota, ma con un battito interno che le gonfiava il seno.</p>
+					<p>Allora una parola ch'ella non aveva mai pronunciata da sola, una parola dei libri santi, una parola del <name type="book">Vangelo</name> le salì improvvisamente alle labbra. Non la disse, non la mormorò, la sospirò appena: <q type="spoken">Amore!</q></p>				
+				</div2>
+				
+				<div2 type='chapter'><head>* <lb/> * *</head>
+					<p>Continuavano i colpi a scuotere le vette ed a far rimbombare le valli, sempre, tutti i giorni.</p>
+					<p><q type="spoken">- Sono le mine -</q> aveva detto il prete; ma ancora le fanciulle non capivano.</p>
+					<p><name type="person">Mària</name> passava le giornate sul suo picco solitario, dove i colpi sembravano ripercossi più fortemente dal vuoto del sottostante abisso. Ella contava i primi colpi, ma non sapeva contare molto; e quando non poteva più andare avanti, stringeva le labbra, come per un interno dolore.</p>
+					<p>Un fascino straordinario le veniva da quel combattimento ignoto, un tumulto nel sangue, un impeto di correre e di mischiarsi ai combattenti.</p>
+					<p><q type="spoken">- Non ti piacerebbe andar là? -</q> chiese a <name type="person">Maria</name>; ed il suo occhio apparve così ardente che la dolce fanciulla se ne sbigotti.</p>
+					<p><q type="spoken">- <name type="person">Maria</name> <name type="entity">Vergine</name> !</q></p>
+					<p>Un'altra volta le disse: <q type="spoken">- Non pensi tu che, al di là di questi monti, lontano lontano, dove finisce la valle, esistono ancora delle città, come <name type="place">Ninive</name>, come <name type="place">Babilonia</name>? e dei Re come <name type="person">Salomone</name> e delle Regine come <name type="person">Saba</name>? L'oro e le gemme dove saranno se non laggiù? Oh! vorrei vederla una gemma! Le gemme abbelliscono una donna, poiché <name type="person">Giuditta</name> se ne adornò quando volle piacere ad <name type="person">Oloferne</name>.</q></p>
+					<p><q type="spoken">- <name type="person">Gesù</name>!</q></p>
+					<p>La dolce fanciulla si coperse il volto colle mani, e <name type="person">Mària</name> tacque.</p>					
+				</div2>
+				
+				<div2 type='chapter'><head>* <lb/> * *</head>
+					<p>Da quel giorno i suoi silenzi crebbero, si fecero più cupi. Non volle più mischiarsi ai giuochi ingenui della sorella; le visioni luminose di costei, tutto quel mondo ideale dov'ella trovava la felicità, sembrava irritarla sempre più. Un pensiero oscuro le solcava la fronte, una fiamma la divorava internamente, ed i suoi occhi ne serbavano il riflesso. Quando non stava muta e concentrata sul suo picco spariva per lunghi intervalli, e ritornava poi stanca, coi capelli arruffati, le guancie in fiamme.</p>
+					<p>Aveva delle ore di languore estremo. Pregava appassionatamente, sopratutto la sua preghiera d'elezione, ch'era il <name type="prayer">De Profundis</name>. Diceva il primo versetto con un fervore che le metteva dei singhiozzi nella voce: <s xml:lang="la">De profundis clamavi ad te Domine, Domine exaudi vocem meam.</s> Ma continuando, diventava pallida pallida, la voce le moriva in gola, uno sguardo lungo, disperato, sembrava scovare dall'anima sua l'intimo anelito e portarlo su quelle parole ardenti fino a  <name type="entity">Dio</name> .</p>
+				</div2>	
+				
+				<div2 type='chapter'><head>* <lb/> * *</head>						
+					<p><q type="spoken">- Dove sta <name type="person">Mària</name> tutti i giorni per tante ore?</q></p>
+					<p><q type="spoken">- Padre, tu sai ch'ella amò sempre la corsa e le lunghe escursioni. Ella è come gli uccelli dell'aria; la terra la stanca e nel nido si annoia. Lasciala volare la nostra aquiletta....... ....................................</q></p>
+					<p>Ma, dopo qualche tempo, l'umore di <name type="person">Mària</name> cambiò ancora. Ella continuava bensì ad assentarsi, ma al suo ritorno non aveva più quell'aria selvaggia e fiera. Una insolita dolcezza le ammorbidiva lo sguardo, e le capitava qualche volta di sorridere da sola, come inseguendo il bagliore di una visione.</p>
+					<p>Si faceva più tenera, più mansueta. Acconsentiva a intrecciare corone insieme a <name type="person">Maria</name>, mostrava di interessarsi al suo piccolo mondo di insetti e di fiori. Quando rideva, le si illuminava tutta la faccia, ed aveva allora un'espressione così nuova che la dolce fanciulla non rifiniva dal guardarla e dall'ammirarla. Le disse una volta:</p>
+					<p><q type="spoken">- <name type="person">Mària</name>, non sei più la <name type="person">Mària</name> di prima. Qualche cosa di diverso c'è in te.</q></p>
+					<p>E quella a ridere coi dentini fitti e bianchi, che sembravano voler mordere le labbra. Le era spuntato da poco tempo un nèo sulla guancia destra.</p>
+					<p><q type="spoken">- E questo spino nero che ti ha cambiato -</q> diceva <name type="person">Maria</name>. <q type="spoken">- Non ti ha cambiata male; ma, se ti annoia di tenerlo, io potrò ben levartelo.</q></p>
+					<p><q type="spoken">- No, no guai a te! È la mia bellezza.</q></p>
+					<p><q type="spoken">- Bellezza, bellezza, -</q> ripeteva <name type="person">Maria</name> per un numero infinito di volte, non sapendo bene che rapporto ci fosse tra la parola bellezza e quel piccolo punto nero.</p>
+					<p><q type="spoken">- Sì, sì, la mia bellezza! -</q> tornò a dire <name type="person">Mària</name>; e, strappata in una sol volta una manciata di fiori, si diede a gettarli lontano, ridendo con una gioconda aria di sfida......................................</p>
+					<p><q type="spoken">- La nostra aquiletta si fa dolce e buona come una colomba. E quanto bene mi vuole, padre! Mi chiama con certi nomi che io non avrei mai immaginato di poter dire a lei. E questa notte in sogno mi abbracciò stretta stretta! Come erano profondi e caldi i suoi baci! Io non mi mossi per non svegliarla.</q></p>
+				</div2>
+				
+				<div2 type='chapter'><head>* <lb/> * *</head>
+					<p>Nel tramonto morbido, color di viola, le sorelle parlavano sommesso, accoccolate sulla soglia della baita. L'ultima luce le coloriva appena, appena le faceva risaltare sullo sfondo della parete colla grazia incerta delle pitture primitive.</p>
+					<p>Diceva <name type="person">Maria</name> che la mucca era ammalata, che dava poco latte: forse era vecchia e bisognava cambiarla.</p>
+					<p><q type="spoken">- Sì - </q>appoggiava <name type="person">Maria</name> <q type="spoken">- bisognerà prendere una mucca che abbia appena fatto il vitellino.</q></p>
+					<p><q type="spoken">- Come mi piacerebbe che la nostra facesse un vitellino!</q></p>
+					<p><q type="spoken">- I pastori ne hanno tanti dei vitellini.</q><q type="spoken">- Tanti?</q></p>
+					<p><q type="spoken">- E li vendono.</q></p>
+					<p><q type="spoken">- Li vendono? Cosa vuol dire?</q></p>
+					<p><q type="spoken">- Ma sì, lo sai bene. Anche Abramo e Giacobbe vendevano gli agnelli e i vitellini. Gli altri li comperano.</q></p>
+					<p><q type="spoken">- Gli altri -</q> -mormorò piano <name type="person">Maria</name> <q type="spoken">- gli altri.</q></p>
+					<p><q type="spoken">- C'è della gente, sai, laggiù! Trenta, quaranta, o cento, insomma molta gente, molta; uomini e donne, e, quando gli uomini sono giovani, prendono una donna giovane e la sposano.</q></p>
+					<p>La notte era calata quasi interamente; scomparse le montagne, scomparsa la bocca spalancata della valle. Non si vedeva che il cielo, un cielo pallido con qualche stella e senza luna.</p>
+					<p>Le sorelle tacquero per un poco, sempre accoccolate, colle spalle contro la baita; si erano prese per la mano e stavano così guardando in alto.</p>
+					<p>A un tratto <name type="person">Mària</name> disse:</p>
+					<p>q type="spoken"></q></p>
+					<p>- Il buon padre, quando era giovane, abitò nella valle.</p>
+					<p><q type="spoken">- Te lo disse lui?</q></p>
+					<p><q type="spoken">- Io lo so.</q></p>
+					<p>Un altro silenzio.</p>
+					<p><q type="spoken">- Gli uomini laggiù lavorano e le donne stanno in casa ad aspettarli, ed hanno i bambini.</q></p>
+					<p><q type="spoken">- So cosa sono i bambini! -</q> esclamò <name type="person">Maria</name>, lieta di sapere anch'essa qualche cosa <q type="spoken">- sono gli uomini piccoli. Non ne abbiamo mai veduti.</q></p>
+					<p><q type="spoken">- Mai!</q></p>
+					<p><q type="spoken">- Il buon padre, che ci ama tanto potrebbe darcelo un bambino! Come mi piacerebbe ad avere un bambino! La moglie del pastore ne ha uno, ma non è mai venuta fin qui a mostrarcelo.</q></p>
+					<p><q type="spoken">- I bambini piccoli non camminano.</q></p>
+					<p><q type="spoken">- I pulcini sì.</q></p>
+					<p><q type="spoken">- I pulcini sì, ma non i bambini piccoli.</q></p>
+					<p>Le due sorelle tornarono a smarrirsi col pensiero nelle visioni. Fu ancora <name type="person">Mària</name> che disse:</p>
+					<p><q type="spoken">- Ogni bambino ha la madre.</q></p>
+					<p><q type="spoken">- Sì, la  <name type="entity">Madonna</name>  era la Madre di <name>Gesù</name>.</q></p>
+					<p><q type="spoken">- E noi non abbiamo bambini.</q></p>
+					<p><q type="spoken">- Non li abbiamo. Questo è un mistero.</q></p>
+					<p> <name type="person">Mària</name> sospirò profondamente.</p>
+					<p><q type="spoken">- Il mistero -</q> continuò <name type="person">Maria</name> con una subita ispirazione <q type="spoken">- è la volontà di <name type="entity">Dio</name> . Il cielo è un mistero; i boschi, i monti, i fiori e tutte le bestioline; e il giorno e la notte; e noi stessi...</q></p>				
+					<p>Stese le braccia, chiuse le palpebre quasi cercando nell'ombra il proprio mistero, invasa dalla soavità di quel velo che calava sempre sulla sua mente, quando tentava di affacciarsi alla realtà delle cose.</p>
+					<p>Per quella sera non parlarono più.</p>				
+				</div2>
+				
+				<div2 type='chapter'><head>* <lb/> * *</head>
+					<p><q type="spoken">- Le mine! le mine! -</q> gridò giulivamente <name type="person">Mària</name>, udendo rimbombare la valle, in seguito a due giorni di perfetto silenzio.</p>
+					<p><q type="spoken">- Credevo non lavorassero più -</q> rispose <name type="person">Maria</name>.</p>
+					<p><q type="spoken">- Oh! ne hanno per un pezzo! Non pensi quanto tempo ci vuole a forare una montagna? E poi tutti i riguardi che devono usare per non rimanere sotto schiacciati. Come sono bravi i minatori! Intendi nevvero, che devono essere bravi e forti?</q></p>
+					<p><name type="person">Maria</name> chinò il capo in segno di assentimento rispettoso.</p>
+					<p><q type="spoken">- Tutti giovani -</q> rispose <name type="person">Mària</name> infervorandosi. <q type="spoken">- Vengono da lontani paesi, parlano in diverse lingue e, quando hanno finito il lavoro, tornano alle loro case con molti denari.</q></p>
+					<p><q type="spoken">- Denari? -</q> fece <name type="person">Mària</name> .</p>
+					<p><q type="spoken">- Sì, sono piccoli oggetti rotondi, che a gettarli per terra suonano.</q></p>
+					<p><q type="spoken">- Suo-na-no?...</q></p>
+					<p><q type="spoken">- I più bravi ne guadagnano di più, per questo diventano ricchi.</q></p>
+					<p> <name type="person">Mària</name> stupefatta esclamò:</p>
+					<p><q type="spoken">- Ma, quante cose sai!</q></p>
+					<p><name type="person">Mària</name> sorrise, di quel suo nuovo sorriso sì gaio e fine che le rialzava il labbro superiore, scoprendo un improvviso scintillio di bianchezza.</p>
+					<p><q type="spoken">- Dove le hai apprese?</q></p>
+					<p><name type="person">Mària</name> si fece seria; strinse le labbra, e senza guardare in viso la sorella, rispose:</p>
+					<p><q type="spoken">- Me le ha dette la moglie del pastore.</q></p>
+					<p><q type="spoken">- Se non la vediamo da quasi un anno!</q></p>
+					<p><q type="spoken">- Io l'ho veduta.</q></p>
+					<p><q type="spoken">- Quando?</q></p>
+					<p><q type="spoken">- L'ho veduta.</q></p>
+					<p><q type="spoken">- Qui non venne.</q></p>
+					<p><q type="spoken">- No. La incontrai un giorno che mi ero spinta giù, giù...</q></p>
+					<p><q type="spoken">- Deve essere ben lontano.</q></p>
+					<p><q type="spoken">- Oh! lontanissimo. Sai, io corro.</q></p>
+					<p><q type="spoken">- Non ne dicesti niente.</q></p>
+					<p><q type="spoken">- È vero.</q></p>
+					<p>Un leggiero rossore imporporò le guancie di <name type="person">Mària</name>, tanto leggiero e così soave che <name type="person">Maria</name> stette a guardarla coll'ansia indefinibile di chi si trova dinanzi ad una rivelazione.</p>
+					<p>Era anche il suo volto parimenti luminoso? Ed erano come quelli della sorella, pieni di scintille i suoi occhi? E poi ancora qualche cosa di cui non trovava il nome, come se una morbidezza fosse scesa sull'altra e un calore tra pelle e pelle, e un pensiero che non veniva mai sulle labbra, ma che sembrava correre nel sangue, e infine una sensazione strana, come se qualcuno fosse con lei, anche quando era sola.</p>
+				</div2>
+				
+				<div2 type='chapter'><head>* <lb/> * *</head>	
+					<p>Per la prima volta un'ombra malinconica scese nel cuore di <name type="person">Maria</name>. Ella corse dal<name type="entity">Padre</name>e gli disse:</p>
+					<p><q type="spoken">- Guardami. Sono io simile a mia sorella?</q></p>
+					<p><q type="spoken">- Perché mi fai questa domanda?</q></p>
+					<p><q type="spoken">- Perché ho sempre creduto che io e <name type="person">Mària</name> fossimo come una persona sola; ma vedo che <name type="person">Mària</name> cambia, e mi pare che a questo modo mi sfugga. Ah! padre, io vorrei seguirla!</q></p>
+					<p>Il solitario la calmò. Le disse:</p>
+					<p><q type="spoken">- Non sono simili i fiorellini che nascono nello stesso prato? E se uno è pallido e l'altro vigoroso e vermiglio, non ricevono forse la stessa rugiada e lo stesso raggio di sole? Tu sei uguale a tua sorella come il pallido e sottile miosotide è uguale alla rosa vigorosa e vermiglia.</q></p>
+				</div2>
+				
+				<div2 type='chapter'><head>* <lb/> * *</head>
+					<p><q type="spoken">- Che è questo? - chiese <name type="person">Maria</name>, sorprendendo nelle mani della sorella una breve superficie lucente, che sembrava acqua rappresa.</q></p>
+					<p><q type="spoken">- Guàrdati.</q></p>
+					<p><q type="spoken">- <name type="entity">Madonna</name>  santa, che è?</q></p>
+					<p><q type="spoken">- È il tuo volto.</q></p>
+					<p><q type="spoken">- Questo ch'io vedo?</q></p>
+					<p><q type="spoken">- Sì.</q></p>
+					<p><q type="spoken">- E questi occhi?</q></p>
+					<p><q type="spoken">- I tuoi.</q></p>
+					<p><q type="spoken">- E questo naso?</q></p>
+					<p><q type="spoken">- Il tuo.</q></p>
+					<p><q type="spoken">- E la bocca?</q></p>
+					<p><q type="spoken">- La tua bocca. Prova a ridere, vedrai.</q></p>
+					<p><q type="spoken">- <name type="entity">Madonna</name>  santa!</q></p>
+					<p><q type="spoken">- Non credi ancora? Accosta una mano; vedi bene che è la tua mano. Muovila. Vedi che si muove?</q></p>
+					<p><name type="person">Maria</name> non parlava più, intontita, immobile davanti alla magica scena; e siccome dalle labbra aperte le usciva il fiato a ondate, presto la lucida superficie si appannò, si rinchiuse.</p>
+					<p><q type="spoken">- Scappa! scappa! -</q> gridò <name type="person">Mària</name> .</p>
+					<p>E <name type="person">Mària</name> a ridere allegramente.</p>
+					<p>Con un movimento pieno di dignità passò il lembo del gonnellino sulla lucida superficie che tosto riprese a brillare, e <name type="person">Maria</name> non soggiunse verbo, soggiogata.</p>
+					<p><q type="spoken">- È uno specchio, -</q> disse finalmente <name type="person">Mària</name> con una certa aria di persona superiore.</p>
+					<p><name type="person">Maria</name> non osò nemmeno di ripetere la strana parola. Solo dopo un pezzo, quando <name type="person">Mària</name> ebbe nascosta la spera in seno, ella dimandò:</p>
+					<p><q type="spoken">- Dove l'hai preso?</q></p>			
+					<p><q type="spoken">- La solita domanda.</q></p>
+					<p><name type="person">Maria</name> abbassò gli occhi, mortificata.</p>
+					<p><q type="spoken">- Ebbene, perché vuoi sapere tutto, me lo ha dato la moglie del pastore.</q></p>
+					<p><q type="spoken">- Ancora la trovasti?</q></p>
+					<p><q type="spoken">- Ancora.</q></p>
+					<p><q type="spoken">- Ella cammina dunque sempre?</q></p>
+					<p><q type="spoken">- Sale a pascolare l'armento.</q></p>
+					<p><q type="spoken">- Perché non viene qui?</q></p>
+					<p><q type="spoken">- È troppo lontano.</q></p>
+					<p><q type="spoken">- Torna a levare quella bella cosa che la mostriamo al padre.</q></p>
+					<p><q type="spoken">- No, no, egli non capirebbe. Non gliene parlare, te ne prego.</q></p>
+					<p>E per la seconda volta sulle guancie di <name type="person">Mària</name> apparve quel misterioso rossore, quella zona d'alba nascente... Per la seconda volta <name type="person">Maria</name> sentì stringersi il cuore da un ignoto turbamento.</p>
+				</div2>
+				
+				<div2 type='chapter'><head>* <lb/> * *</head>
+					<p>Passò la primavera.</p>
+					<p>L'estate, breve e cocente, maturava a stento i magri frutti dei noccioli esposti a mezzogiorno; ma i rododendri aprivano i loro cuori sanguigni e su per le vette, ai piedi dei ghiacciai, gli edelweiss stellavano il muschio con una fioritura di velluto bianco.</p>
+					<p><name type="person">Mària</name>, che aveva sempre sdegnato i fiori, ne coglieva ora delle grembiulate piene. Li intrecciava ai capelli, ne formava mazzolini al seno; sceglieva i più odorosi, il timo, la menta, e li faceva seccare sotto il guanciale. Talvolta scendeva dalle vette con fasci di edelweiss, che scomparivano subito. Tal'altra invece saliva dalla valle con fiori nuovi, sconosciuti intorno alla baita.</p>
+					<p>Anche alle bestioline si interessava, alle piccole bestioline amiche di <name type="person">Maria</name>.</p>
+					<p>Ella disse un giorno, vedendo due bruchi avviticchiati insieme sopra una foglia.</p>
+					<p><q type="spoken">- Quanto si amano!</q></p>
+					<p>Al che <name type="person">Maria</name> non trovò nulla da ripetere, poiché ella sapeva che tutto ciò che è creato da  <name type="entity">Dio</name>  ama. Ma fu meravigliata assai quando trovò la sorella mesta e piangente sopra un cespuglio, e che <name type="person">Mària</name> spiegò:</p>
+					<p><q type="spoken">- Una bella farfallina stava succhiando queste foglie; un'altra farfalla venne, e quella non badò più alle foglie. Quanto si amarono! Quanto si amarono! (La stessa frase tornava sulle sue labbra, il tempo solo era cambiato.) Ma la farfalla così come era venuta fuggì...</q></p>
+					<p>E le lagrime di <name type="person">Mària</name> continuavano spesse, ardenti; <name type="person">Maria</name> ne era commossa e meravigliata. Invano chiedeva alla sorella la cagione del suo dolore; ella rispondeva:</p>
+					<p><q type="spoken">- Tu non sai, tu non sai.</q></p>
+					<p>E <name type="person">Maria</name> allora si accovacciava a' suoi piedi, umile, muta, con una passione repressa, con un senso vago di terrore davanti a quella sua metà, a quella gemella sua, che non viveva più della sua stessa vita, che rideva e piangeva senza di lei, lungi da lei... Ma dove, o <name type="entity">Signore</name> ?</p>
+				</div2>
+	
+				<div2 type='chapter'><head>* <lb/> * *</head>
+					<p>Era stato tutto il giorno un caldo soffocante, insolito. Gruppi di nuvole nere si avanzavano minacciose portando nelle loro pieghe un grosso temporale.</p>
+					<p><name type="person">Mària</name>, assente fin dal mattino, non tornava.</p>
+					<p><q type="spoken">- Dov'è tua sorella? -</q> chiese il padre, vedendo che il tempo si faceva sempre più scuro.</p>
+					<p>E <name type="person">Maria</name>, per questa domanda, si sentì stringere il cuore. Non era la stessa domanda fatta da <name type="person">Adamo</name> a <name type="person">Caino</name>: <q type="spoken">"Che ne facesti del tuo fratello?"</q> <q type="thought"></q>O  <name type="entity">Signore</name> ,  <name type="entity">Signore</name> , proteggete la mia povera sorella!</q></p>
+					<p>Così pregava internamente <name type="person">Maria</name>, ascoltando ogni piccolo rumore che venisse dal sentiero. Poi, non potendo reggere al tormento dell'attesa, scivolò chetamente fuori della baita, e andò a, spingersi fino al sasso, il punto di dove si vedeva più lontano nella valle.</p>
+					<p>Il temporale era sopra. Un vento furioso faceva stridere gli alberi che si dibattevano come anime in pena: una oscurità improvvisa era calata sulle vette e sui boschi. Muggiva sordamente il tuono.</p>
+					<p><q type="spoken">- O <name type="entity">Signore</name> , <name type="entity">Signore</name> , la mia povera sorella!</q></p>
+					<p>Gelida, sbigottita, si appoggiava colle mani alla roccia per spingere innanzi lo sguardo; ma la raffica la acciecava, le toglieva il fiato. Le parve alla fine di scorgere da lungi tra i pini la figura di  <name type="person">Mària</name> corrente.</p>
+					<p><q type="spoken">- <name type="entity">Signore</name>  benedetto, vi ringrazio!</q></p>
+					<p>Ella giunse fra lo scrosciare dei tuoni, alla luce dei lampi. Aveva corso tanto che le mancava il respiro.</p>
+					<p><name type="person">Maria</name> la prese per mano e la trascinò subito nella loro cameretta, perché il buon<name type="entity">Padre</name>non vedesse quanto era agitata e scarmigliata.</p>
+					<p>Ella si lasciò fare: appena giunta in camera, cadde sul lettuccio, stringendosi il cuore con tutte e due le mani, incapace di dire una sola parola.</p>
+					<p>- Riposa, riposa. -<name type="person">Maria</name>le si era seduta al fianco e le accarezzava blandemente i capelli. - Ora può venire il temporale, vero? La mia sorellina è nel nido. Ma cos'è questo? che hai fatto? Un cattivo animale ti ha morsicata.</p>
+					<p>Alla fine della guancia, verso il collo <name type="person">Mària</name> aveva un segno rosso, di un rosso vivo come di pressione recente che vi avesse rappreso e stagnato il sangue. Alle inchieste della sorella, ella vi portò vivamente la mano, e, cercato subito lo specchietto, si guardò.</p>
+					<p> <name type="person">Mària</name> chiese ancora.</p>
+					<p>- È un cattivo animale che ti ha morsicata?</p>
+					<p>Ella scosse la testa, e, continuando a mirare il segno rosso, le si venne dipingendo sul volto un passaggio di emozioni variatissime, che finirono in un dolce languore, in un rapimento, in una specie di estasi concentrata; per cui si lasciò cadere lo specchietto in grembo, e stette immobile, cogli occhi fissi in un punto noto a lei sola.</p>
+					<p>Ma quando <name type="person">Maria</name> colla sua grazia innocente fece atto di volerle baciare quella ferita, balzò in piedi, si ritrasse, e, allontanando da sé la dolce sorella, fece scudo della mano alla guancia, quasi per proteggerla, perché il piccolo segno rosso non venisse toccato.</p>
+				</div2>
+				
+				<div2 type='chapter'><head>* <lb/> * *</head>
+					<p>Ed anche l'estate finì.</p>
+					<p>Dopo un seguito di bufere violente, la natura parve raccogliersi per gustare con calma le ultime belle giornate dell'anno.</p>
+					<p>Le gemelle erano occupate a far seccare il fieno per la mucca, ed a raccogliere legna per la provvista invernale. <name type="person">Mària</name> tuttavia trovava sempre modo di scomparire per qualche ora.</p>
+					<p>Il suo carattere continuava a presentare grandi ineguaglianze, sbalzi improvvisi dal riso al pianto, ora ciarliera fin troppo, ora rinchiusa e mesta tanto che le si affilavano le guancie da parere ammalata. Talvolta aveva gli occhi ardenti come bragie, quegli occhi che facevano paura a <name type="person">Maria</name>, per cui la dolce fanciulla pensava: Mio  <name type="entity">Dio</name> , che cosa ci sarà dentro?</p>
+					<p>Andava ancora a sedersi sul suo picco solitario, e di là slanciava nella valle certi canti che sorprendevano <name type="person">Mària</name> . Non era più la nenia monotona dei loro due nomi riuniti; erano canti nuovi, strani e soavemente belli. Forse - rifletteva <name type="person">Maria</name> - ella fa come gli uccellini; appena nati pigolano e poi cantano.</p>
+					<p>La dolce fanciulla stava ad ascoltarla. A tratti una parola bizzarra entrava a far parte della canzone. Una frase specialmente la colpiva e perché le era ignota e perché <name type="person">Mària</name> la pronunciava con una particolare inflessione di voce, quasi languente, morente nello spasimo: sospiro per te!</p>
+					<p><name type="person">Maria</name> ripeteva a bassa voce: "sospiro per te". La cadenza di quella frase la ammaliava, e le pareva che le foglie degli alberi stormendo dicessero qualche volta: "sospiro per te". Non diceva anche "sospiro per te" il piccolo filo d'acqua che scendeva dalle rocce? Dai folti ombrosi della selva una voce oscura modulava con accento più tenero ancora: "sospiro per te!"</p>
+					<p>Tutto ciò era delizioso nei rosei meriggi dell'autunno, quando le due sorelle riposavano in mezzo al fieno raccolto e il profumo penetrante di esso si mesceva alla ebbrezza dell'ora e dell'età.</p>
+				</div2>
+				
+				<div2 type='chapter'><head>* <lb/> * *</head>
+					<p>Supina sul prato, colle braccia arrotondate intorno alla testa, <name type="person">Mària</name> disse una volta:</p>
+					<p>- Se morissi, che faresti tu?</p>
+					<p>Maria, che non aveva mai pensato alla morte, rispose:</p>
+					<p>- E non dobbiamo morire insieme?</p>
+					<p>La cosa le sembrava naturale così.</p>
+					<p>Insieme erano nate, si appartenevano: perchè sarebbero state disgiunte?</p>
+					<p>La sera dello stesso giorno, mentre andavano a letto, e <name type="person">Maria</name> s'era già distesa sotto la coltre, <name type="person">Mària</name> , standosene seduta in camicia sul saccone, disse ancora:</p>
+					<p>- Se io morissi, piangeresti?</p>
+					<p>- Perchè proferisci cose contrarie al volere di <name type="entity">Dio</name> ? <name type="person">Mària</name> , noi non dobbiamo pensare a ciò.</p>
+					<p>Si rizzò anch'ella a sedere sul letto, e le parve che, invece di dormire, avrebbero dovuto discorrere a lungo.</p>
+					<p>Invece tacquero improvvisamente, come se qualcuno si fosse posto in mezzo a loro.</p>
+					<p>Solo dopo molto tempo, <name type="person">Mària</name> scivolò chetamente fra le lenzuola, e <name type="person">Mària</name> , che in quel momento si decise a soffiare nel lume, se la sentì avviticchiata al collo, tutta tremante e piena di lagrime.</p>				
+				</div2>
+				
+				<div2 type='chapter'><head>* <lb/> * *</head>
+					<p>Il giorno dopo, <name type="person">Mària</name> apparve cogli occhi così rossi e sbattuti dalla veglia che il buon<name type="entity">Padre</name>se ne avvide, e le domandò se si sentiva male, al che <name type="person">Mària</name> non rispose, ma, buttatasi in ginocchio, gli prese il lembo della tonaca e gliela baciò con un affetto così umile ed intenso, come non aveva fatto mai.</p>
+					<p>- <name type="person">Mària</name> , <name type="person">Mària</name> , che è in tè? Lo spirito del <name type="entity">Signore</name>  ti tocchi e calmi l'anima tua.</p>
+					<p>Egli la rialzò con dolcezza, e si pose a parlarle dei cuori umili e mansueti che <name type="entity">Dio</name> non abbandona mai.</p>
+					<p> <name type="person">Mària</name> disse:</p>
+					<p>- Padre, benedicimi.</p>
+					<p>E dopo la benedizione, dopo un lungo silenzio rotto dai sospiri della fanciulla, ella disse ancora con accento fioco:</p>
+					<p>- Perdonami.</p>
+					<p>Parve all'asceta che in quel momento lo toccasse il fruscio di un'ala invisibile. Trasalì, e rispose colle lagrime agli occhi:</p>
+					<p>- <name type="entity">Dio</name> ci perdoni a tutti! ...............................</p>
+				</div2>
+				
+				<div2 type='chapter'><head>* <lb/> * *</head>
+					<p>Pallida assai era la giornata; un velo cingeva i monti, una leggiera nebbia sorgeva dal piano, una malinconia di natura morente esalava dagli alberi, dalle foglie ingiallite, che si staccavano e cadevano gemendo. Sul terreno umido i passi non destavano alcun suono. <name type="person">Mària</name> uscì lentamente dalla baita.</p>
+					<p>Fuori, sulla bella spianata dove ponevano ad asciugare le foglie dei faggi, era rimasto uno zoccolo di <name type="person">Mària</name> . Ella si chinò a raccoglierlo. Il piede di <name type="person">Maria</name> era tanto piccino, che potè far scivolare lo zoccoletto in tasca con tutta facilità, e, tenendovi sopra la mano, si diede ad affrettare il passo quasi temesse di essere sorpresa.</p>
+					<p>Ma sostò un altro istante nel sentiero, dove ella e <name type="person">Maria</name> solevano cogliere i fiori ed intrecciarli: e ad un certo posto ombreggiato, dove si erano riposate tante volte insieme, dove avevano ciarlato, e dove si erano abbracciate. Tutta, tutta la via era piena delle memorie di quella esistenza in due che era stata tanto intima e tanto serena.</p>
+					<p><q type="spoken">- Sorella! sorella! sorella!</q></p>
+					<p>Così gridò nello spazio vuoto; sotto i noccioli, che sembravano piangere, umidi di nebbia, colle foglioline morte che le cadevano sulle spalle e sul capo a guisa di carezze malinconiche.</p>
+					<p>Ancora una sosta al sasso, al suo picco prediletto. Qui esitò. Da quel punto, volgendosi indietro, si scorgeva il tetto della baita, di dove in quell'ora svolgevasi una sottile colonna di fumo. Sembrava un richiamo, un invito dolce e sommesso, una tacita preghiera, un incenso d'amore, di pace, di perdono.</p>
+					<p>Con uno sforzo violento <name type="person">Mària</name> si mosse, e senza più esitare, senza voltarsi indietro, senza arrestarsi, prese la discesa della valle, sparì.......................................</p>
+				</div2>
+			</div1>
+			
+			<div1 type='part' n='4'><head>PARTE QUARTA</head>
+				<div2 type='chapter'><head>IL MALE.</head>
+					<p>Molti giorni erano passati; e dall'alba al tramonto, dal tramonto all'alba essi aspettavano ancora.</p>
+					<p>Tutti i boschi, tutti i cespugli erano stati interrogati, e il sasso solitario ed i viali e l'orrido precipizio, che solo rispondeva col muggito profondo del torrente.</p>
+					<p>Dov'era? Dov'era?</p>
+					<p> <name type="person">Mària</name> adesso girava tutto il giorno; girava smarrita, chiamando ad ogni tratto la sorella; paziente nel suo dolore e persuasa che sarebbe tornata alfine.</p>
+					<p>Il prete invece dubitava. Quel fremito, quel fruscio impercettibile che lo aveva scosso quando la fanciulla gli aveva detto "perdonami" non era stato forse un avvertimento che egli aveva trascurato?</p>
+					<p> <name type="entity">Dio</name> parla qualche volta così agli uomini. Egli era dunque stato sordo alla voce divina.</p>
+					<p>Questo pensiero lo straziava.</p>
+					<p>Tutte le sere diceva a <name type="person">Mària</name> : <q type="spoken"> - Lascia aperta la porta e lascia il lume acceso, affinchè la poveretta, se tornasse, non abbia a smarrirsi nel buio.</q></p>
+					<p>Dicendo così, non credeva.</p>
+					<p>E tutta la notte vegliava orando, intanto che <name type="person">Maria</name> prendeva un po' di riposo nel lettuccio abbandonato.</p>
+					<p>Non credeva; ma, ad ogni fronda agitata, ad ogni sasso che ruzzolasse, balzava in piedi animato da una subitanea speranza, e, uscendo sulla spianata, tendeva l'orecchio verso i monti, verso la valle, in tutta quella oscurità muta, impenetrabile, dove udivasi soltanto il misterioso respiro della solitudine.</p>
+					<p>E pensava ancora: <q type="spoken">- Forse la sua vita era nelle mie mani. Quand'ella mi disse: "padre, benedicimi", perchè non l'ho stretta nelle mie braccia? Io l'ho lasciata sola nella lotta. Avevo il dovere di difenderla e non l'ho difesa, avevo il dovere di amarla e non l'ho amata. Giusto <name type="entity">Iddio</name>, è la mia volta, puniscimi</q>!</p>
+					<p><name type="person">Maria</name>, che dormiva a brevi tratti di un sonno agitato e pieno di visioni, svegliavasi spesso tutta in lagrime, e, chiamando il buon<name type="entity">Padre</name>e cercandolo, lo trovava svenuto sul suolo, colle mani ancora giunte in atto di preghiera.</p>
+				</div2>
+				<div2 type='chapter'><head>* <lb/> * *</head>
+					<p>Tutte le foglie erano cadute, il terreno ne era giallo; restavano intatti i pini e gli abeti nella loro cupa veste che resisteva ai venti. Morti i fiori, morti gli insetti, morta la luce.</p>
+					<p><q type="spoken">- Ohimè, anche la nostra fanciulla è morta!</q></p>
+					<p><q type="spoken">- Padre, padre, tu pure lo dici? Ella mi parlò di morte l'ultimo giorno, ma non si muore che per andare in cielo, e noi non dovremmo esserci con lei? Se voleva morire, perchè non ce lo disse? Perchè non ci ha aspettati? Padre, seguiamola, andiamo con lei.</q></p>
+					<p>Così diceva <name type="person">Mària</name> , nella sua eterna visione soprannaturale, nella impossibilità di comprendere.</p>
+					<p>Ed egli che l'aveva educata alle gioie celesti, non sapeva ora come spiegarle la materialità della morte.</p>
+					<p><q type="spoken">- Senti, forse non la raggiungeremo subito. Ci è duopo aspettare il nostro giorno; in quel giorno tu comprenderai perchè "il sepolcro dà la luce all'uomo".</q></p>
+					<p> <name type="person">Mària</name> chinò il capo, nè tuttavia ristette dall'aspettare tutti i giorni la sorella. Andava a sedersi sul ciglione della montagna, e vi rimaneva finchè il freddo e il buio della notte non l'obbligassero a rientrare. Coricandosi nel suo lettuccio, si metteva da una parte per lasciarle il posto; e quando si svegliava, il primo movimento istintivo era quello di allungare la mano: credeva sempre di sentirla.</p>
+					<p>Intanto il buon<name type="entity">Padre</name>aveva tagliato il più robusto, il più bello degli abeti, e lo piallava e lo lisciava in silenzio.</p>
+					<p><q type="spoken">- Padre, che fai? La nostra casa è terminata, e non ci occorre nè letto, nè madia. Per chi lavori?</q></p>
+					<p><q type="spoken">- Lavoro per una che è lontana e vicina ad un punto; che non ha più bisogno di casa, nè di letto, nè di madia, ma bensì delle nostre preghiere.</q></p>
+					<p>Quand'ebbe finito di lisciare e di piallare, compose una croce, e recatala al picco che dominava la valle, ve la rizzò alta di contro al cielo. Poi disse a <name type="person">Mària</name> :</p>
+					<p><q type="spoken">- Il <name type="entity">Signore</name>  mi ha mandato una ispirazione. Prima che le nevi ci stringano d'ogni intorno, scendiamo alla casa dei pastori per vedere se possiamo attingere notizie di lei. E se nulla apprenderemo, se <name type="entity">Dio</name> vuole che non l'abbiamo più da vedere in terra, questa croce porterà il suo nome, e vicino ad essa aspetteremo il nostro giorno.......... ...........................</q></p>
+					<p>Chiusero la baita, lasciando la chiave nella toppa, e una ciotola d'acqua e un pezzo di pane sulla soglia.</p>
+				</div2>
+				<div2 type='chapter'><head>* <lb/> * *</head>
+					<p>La baita che il pastore colla sua famiglia abitavano a mezza montagna era grande, con un loggiato davanti, ed era arredata piuttosto bene, perchè un fratello del pastore che faceva il falegname l'aveva provveduta dei mobili più necessarii.</p>
+					<p>L'alcova dei letti era abbellita con una cornice di legno dipinta a colori vivaci; e qualche quadretto, qualche calendario vecchio la ornava ancora torno torno, risvegliando l'idea di voti appesi, dandole un aspetto di nicchia di altare. Fatta con cura, con attenzione particolare e gentile, era una piccola culla, dove dormiva un bimbo biondo biondo.</p>
+					<p>Tutte queste ricchezze non fecero a <name type="person">Maria</name> nessuna impressione. I suoi occhi, abituati allo splendore delle visioni interne, si posavano con indifferenza su ciascun oggetto.</p>
+					<p>Solamente il bimbo attrasse la sua attenzione; una attenzione curiosa e rispettosa, tenera e commossa, per cui non osava quasi di avvicinarsi alla culla, ed aspettava come un avvenimento straordinario il momento in cui avrebbe aperto le palpebre.</p>
+					<p>I pastori, meravigliandosi di quella visita e felici di avere fra loro colui che chiamavano il <name type="entity">Santo</name>, fecero molta festa ai due poveretti, ma quando il prete disse che era venuto in cerca dell'altra fanciulla e quelli risposero di non saperne niente, un gran silenzio si fece all'improvviso. L'ultima speranza svaniva.</p>
+					<p>Senza che nessuno lo dicesse, l'orrore del burrone stava nella mente di tutti; essi sapevano che l'abisso non rende la sua preda e non la rivela.</p>
+					<p>In mezzo alla costernazione generale, <name type="person">Mària</name> , in cui le verità materiali penetravano con molta lentezza, andava ripetendo tra sè, secondo il suo costume: <q type="spoken">- Morta! morta! -</q> cercando di capire. E però, attaccata ancora all'illusione, disse:</p>
+					<p><q type="spoken">- Forse si è indugiata come quel giorno del temporale, e non ha ancora trovata la strada.</q></p>
+					<p>I pastori crollarono il capo, il prete disse:</p>
+					<p><q type="spoken">- Mi farete la carità di informarvi se qualcuno ne vide traccia? Io sono vecchio, ed anche non posso abbandonare quest'unica che m'è rimasta. È ben vero che comanda il <name type="entity">Signore</name> : "lascia tutte le pecorelle per seguire la pecorella smarrita". Ma quelle erano tutte e questa è una: e se l'abbandonassi, non sarebbe ella stessa smarrita?</q></p>
+				</div2>
+				<div2 type='chapter'><head>* <lb/> * *</head>
+					<p>La via era lunga troppo e malagevole perchè il prete e la fanciulla potessero rifarla nello stesso giorno. I pastori li ospitarono fino al domani, e la donna divise con <name type="person">Maria</name> il suo letto, nell'alcova dipinta, tenendosi accanto la piccola culla.</p>
+					<p>Era buona la pastora. Ella ebbe per <name type="person">Maria</name> delle tenerezze di madre. Le faceva compassione a saperla così fuori del mondo. Mentre si svestiva in silenzio, nel breve cerchio di luce della lampadina, la guardava dolcemente.</p>
+					<p>Quanto candore sulla sua fronte! Che ineffabile armonia celestiale negli occhi e sulle labbra! Oh! la buona e bella sposa ch'ella sarebbe stata per suo cognato!</p>
+					<p>E perchè no?</p>
+					<p> <name type="person">Mària</name> si avvicinò alla culla sempre con quell'aria religiosa di rispetto al mistero, di affettuosità contenuta.</p>
+					<p><q type="spoken">- Veramente, la più bella tra le cose vive è un bambino.</q></p>
+					<p><q type="spoken">- Lo credi? - e la pastora sorrise, parte di orgoglio materno, parte di maliziosa intuizione femminile.</q></p>
+					<p><q type="spoken">- Poichè ti piacciono i bambini, ti voglio dare una immagine dove sta dipinto il bambino Gesù. Senza mancare di riverenza al nostro Salvatore, guarda, non ti pare che assomigli tutto al bambino mio?</q></p>
+					<p><name type="person">Mària</name> contemplò l'immagine con molto raccoglimento, e ringraziando soggiunse:</p>
+					<p><q type="spoken">- La metterò accanto a quello specchietto che regalasti a mia sorella.</q></p>
+					<p><q type="spoken">- Uno specchietto? A tua sorella?</q></p>
+					<p>La pastora sbarrò gli occhi, e <name type="person">Maria</name> ripetè:</p>
+					<p><q type="spoken">- Sì, una bella cosa lucida dove si vede il volto, e che <name type="person">Maria</name> chiamava specchio. Glielo donasti tu quest'estate, quando salivi a pascolare l'armento.</q></p>
+					<p><q type="spoken">- Ma io non sono mai salita a pascolare l'armento, e non ho mai veduta tua sorella, e non le diedi nessuno specchio.</q></p>
+					<p>Un fenomeno strano si svolgeva in <name type="person">Mària</name> , come se una vampa di fuoco le toccasse il volto, per cui si avvide di diventare così rossa e con quel colore strano ch'ella aveva osservato molte volte sulle guancie di <name type="person">Mària</name> ; mentre il cuore sembrava arrestare i suoi battiti sotto l'impressione di uno sgomento infinito.</p>
+					<p>La pastora, ingannandosi sul significato di quel rossore, si affrettò a dire:</p>
+					<p><q type="spoken">- Se desideri uno specchio, è presto fatto. Fra pochi giorni ritorna mio cognato, che è stato a lavorare nelle mine. Egli ne avrà uno certamente, e te lo porterà.</q></p>
+					<p><q type="spoken">- Le mine! - esclamò <name type="person">Mària</name> , sentendo crescere l'ignoto sbigottimento. - Conosci tu le mine?</q></p>
+					<p><q type="spoken">- Io no.</q></p>
+					<p><q type="spoken">- E non ne parlasti a mia sorella?</q></p>
+					<p><q type="spoken">- Se ti dico che non l'ho veduta mai!</q></p>
+					<p><name type="person">Mària</name> non aggiunse altro.</p>
+					<p>Tremava tutta, e vedeva un gran buio; un buio che non era nella stanza, ma in tutto il mondo, e soprattutto dentro di lei; un buio assoluto e pauroso, dove sembrava si agitassero delle minaccie ascose e risuonassero lontano lontano, sottoterra, dei gridi strani che sembravano risa ed avevano un suono di pianto.</p>
+				</div2>
+				<div2 type='chapter'><head>* <lb/> * *</head>
+					<p>Triste assai fu il ritorno.</p>
+					<p>Le pioggie di novembre avevano spazzato fin l'ultima foglia; gli alberi rizzavano i loro tronchi e gli irti rami nella desolata nudità dello spazio.</p>
+					<p>Man mano che salivano, le vette mostravansi coperte di neve, e per la prima volta <name type="person">Maria</name> trovò che la neve era malinconica.</p>
+					<p><q type="spoken">- Hai freddo, mia povera figlia? Coraggio; quando saremo nella nostra capanna, ti accenderò un bel fuoco di betulle e di ginestre.</q></p>
+					<p>Un pensiero molestava <name type="person">Mària</name> . Dove ella era sentivasi il freddo?</p>
+					<p>Il prete andava innanzi quasi per incoraggiarla e mostrarle meglio la strada, che parve ad entrambi assai lunga.</p>
+					<p>Quando <name type="person">Maria</name> incominciò a riconoscere i luoghi famigliari, e la vetta che stava dietro alla loro baita, fu invasa da una subitanea speranza. Se ella fosse tornata?... Una zolla di terra bagnata, tracciando una macchia bruna sotto ad un pino, le fece battere rapidamente il cuore. Le era parsa la figura di sua sorella che stesse ad aspettarla.</p>
+					<p>Ma nessuno aspettava. Il sentiero era deserto, dominato dal silenzio delle grandi altezze.</p>
+					<p>Sulla porta della baita, la ciotola piena d'acqua ed il pane giacevano allo stesso posto.</p>
+					<p>Entrarono con un senso di terrore, sentendo che tutta la loro vita era cambiata, che il passato non sarebbe tornato mai più, mai più.</p>
+					<p>Accesero il fuoco di betulle e di ginestre, ma la fiamma non era allegra; essa strideva sinistramente.</p>
+					<p>Il prete pensava a dire qualche cosa; <name type="person">Maria</name> pensava lo stesso e nessuno apriva bocca. Stavano dall'una parte del fuoco e dall'altra, lasciando un posto nel mezzo.</p>
+					<p>Così calò la notte senza che se ne avvedessero. Le tenebre copersero la piccola finestra; il fuoco morì a poco a poco...</p>
+					<p>Maria, agghiacciata fin nel midollo delle ossa, cercò a tentoni il suo lettuccio, e brancicando nel buio urtò qualche cosa che cadde a terra e si infranse con uno stridore secco.</p>
+					<p>Il suolo della stanzetta si coperse di piccoli frammenti lucidi... Ponendovi sopra il piede, <name type="person">Maria</name> si ferì.</p>
+					<p>Dal suo letto dolorando e rigando il lenzuolo con qualche gocciolina di sangue, ella gemeva.</p>
+					<p><q type="spoken">- <name type="entity">Signore</name> , mio <name type="entity">Dio</name> , fate che io capisca.</q></p>
+				</div2>
+				<div2 type='chapter'><head>* <lb/> * *</head>
+					<p>Un uccellino si era abbattuto davanti alla capanna. <name type="person">Maria</name> lo aveva raccolto e lo riscaldava nel suo grembo. Il buon<name type="entity">Padre</name>intanto leggeva uno dei più commoventi fra i salmi:</p>
+					<p>"L'anima mia vien meno dietro alla tua salute; io spero nella tua parola.</p>
+					<p>"Gli occhi miei vengono meno dietro alla tua parola, dicendo: Quando mi consolerai tu?" ............................... ...............................</p>
+					<p>Il fratello del pastore battè all'uscio.</p>
+					<p>I due solitari lo accolsero con un grido. Oh! la grande, la commovente apparizione! Egli era coperto di brina, il suo cappello era rappreso per il gelo, e i chiodi delle sue scarpe lasciavano dietro tante piccole traccie bagnate.</p>
+					<p>Il prete sapeva che cosa vuoi dire salire la montagna d'inverno!</p>
+					<p><q type="spoken">- <name type="entity">Dio</name> ti benedica, figlio mio! Qualunque novella tu porti, ti sia reso il merito della tua carità.</q></p>
+					<p>Ristette il giovane, timoroso, sulla soglia. Alla meta del suo viaggio, gli mancavano le forze, le gambe gli si piegavano sotto e la lingua gli si appiccicava al palato. Fu <name type="person">Maria</name> che lo mosse. Colla sua dolce voce e colla ingenua schiettezza gli domandò subito:</p>
+					<p><q type="spoken">- Vedesti mia sorella?</q></p>
+					<p>Ancora egli non potè parlare; ma, colpito dal soavissimo accento, si avanzò, e standosene muto, la sua faccia si coperse di sì intensa mestizia e tenne sì risolutamente fissi gli sguardi al suolo, che un brivido corse nei due cuori.</p>
+					<p><q type="spoken">- Morta? -</q> esclamò il prete.</p>
+					<p>Il giovine tacque ancora.</p>
+					<p>Un sentimento improvviso lo paralizzava, che non era il gelo, non era la fatica, non il dolore della notizia che recava. Furtivamente sollevava la pupilla a quella purissima che gli stava davanti; e un sacro timore lo prendeva, quasi lo scrupolo di un sacrilegio.</p>
+					<p><q type="spoken">- Morta? - </q>ripetè il prete angosciosamente.</p>
+					<p>Ella se ne stava in piedi, colle mani giunte ed abbandonate lungo la persona, nell'attitudine di un supremo candore e di un'ansia estrema.</p>
+					<p>Le pupille del giovane tornarono a chinarsi. Con un movimento ruvido e casto, si tolse allo sguardo di lei e, piegandosi rapidamente verso il prete, mormorò:</p>
+					<p><q type="spoken">- Perduta!</q></p>
+				</div2>
+				<div2 type='chapter'><head>* <lb/> * *</head>
+					<p>Altre parole pronunciò poi il giovane montanaro; induzioni, commenti, sospetti, e il fatto che <name type="person">Mària</name> era stata veduta più volte intorno all'accampamento dei minatori, e la coincidenza precisa della sua scomparsa col ritorno di costoro ai propri paesi.</p>
+					<p>Ma di tutte queste spiegazioni <name type="person">Maria</name> poco intendeva. Una parola sola l'aveva colpita, la prima: Perduta?</p>
+					<p>Colla sua straordinaria lucidità per tutto quanto riguardava il mondo dell'anima, capì che perduta voleva dire per sempre - più che morta. Ella non avrebbe potuto nè raggiungerla, nè rivederla. Perduta nel tempo, nello spazio, nella eternità... Perduta! perduta!</p>
+					<p>Indarno il buon padre, vedendola così impressionata, tentò di calmarla con parole di speranza e di perdono; egli la trovò, con sua sorpresa, quasi insensibile. Un grande velo si era squarciato, una ferita impudica le aveva rivelato brutalmente ciò di cui non sospettava nemmeno l'esistenza: il male. Or la sua fierezza rivoltata si rifiutava a qualsiasi consolazione.</p>
+					<p>Quando il montanaro, prima di partire, volle salutarla, ella chinò il capo ardente di vergogna. Non era dessa una cosa sola con sua sorella? Chi avrebbe ora potuto guardarla senz'onta?</p>
+					<p><q type="spoken">- Addio! -</q> disse finalmente, coprendosi gli occhi con ambedue le mani; e sentì, sentì distintamente che una parte di lei era già morta.</p>
+					<p>Conobbe in un punto la felicità e il dolore. Il mistero cadendo le aveva rivelato che fino allora era vissuta felice nell'ignoranza e che non potrebbe esserlo più.</p>
+					<p>Un pensiero, che sarebbe stato empio in tutt'altro cuore che il suo, le si faceva strada a poco a poco in mezzo al dolore. Gesù non aveva dunque salvato il mondo; la sua passione divina non era bastata; il mondo soffriva ancora, poichè ancora esisteva la colpa!</p>
+					<p>E, dalle vette serene della sua innocenza, questo mondo trascinantesi nel peccato originale, questo mostro già ucciso e che nuotava sopra il sangue di un <name type="entity">Dio</name> , la riempiva di un mortale ribrezzo.</p>
+					<p>Avrebbe voluto nascondersi, sottrarsi a quell'idea di colpa, e non poteva.</p>
+					<p>Sola, nella sua cameretta, era presa da subitanei rossori, come lei, come lei! La sua gemella era macchiata ed ella si sentiva coperta di macchie. Lo splendore della sua visione celeste si era oscurato, tutto era tenebre adesso.</p>
+				</div2>
+				<div2 type='chapter'><head>* <lb/> * *</head>
+					<p>Una ricostruzione lenta, ma precisa, si andava formando nel suo cervello. Rammentava ogni cosa con una chiarezza da veggente: l'infanzia selvaggia di <name type="person">Mària</name> , i suoi impeti, i suoi slanci, i suoi desideri acuti e compressi, fino a quel giorno fatale in cui le montagne avevano ripercosso lo scoppio della mina - e poi il cambiamento d'umore, le profonde malinconie, i rapidi ed eccessivi scoppi di ilarità.</p>
+					<p>Tutte le cose che lei sapeva!... E quella risposta franca: <q type="spoken">- Me le disse la moglie del pastore!</q></p>
+					<p>Il cuore di <name type="person">Maria</name> si stringeva a questo punto orribilmente. Non conosceva la parola menzogna, ma il fatto sorgeva così inesorabile nella sua memoria e così nudo! Impossibile interpretarlo in altro modo. Ella non poteva dire: "Mia sorella ha mentito", chè ancora sarebbe stata una scoperta preparata dalla conoscenza del peccato e dall'abitudine di vederlo comune fra gli uomini. No. Ella non sapeva nulla, ella credeva, e improvvisamente non può credere più. Alla luce erano successe le tenebre senza insegnamento, senza preparazione, precipitata dal cielo nell'abisso.</p>
+					<p>E la striscia vergognosa della menzogna si allungava, si dilatava. Quello specchio! quei fiori rari còlti ai piedi dei ghiacciai e subito scomparsi! Quei ritorni affannati, sotto il sole, sotto la pioggia, senza dir mai di dove venisse! E i baci! i baci di cui la tempestava alla notte, serrandosela dormente sul cuore!</p>
+					<p>A tale ricordo, il rossore scompariva dalle sue guancie, vinto da un sentimento più potente ancora, più intimo, più oscuro, che sembrava gelarle il sangue nelle vene e schiaffeggiarla con uno di quegli insulti che, invece di arrossare il volto, lo fanno diventare pallido.</p>
+					<p>Dignità, fierezza, onore, pudore, fede ed affetto tutto sanguinava in un colpo solo. E chi l'aveva ferita, così era l'altra metà di sè stessa, la sorella, la gemella sua!</p>
+					<p>Ora, tutte le parole belle: luce, amore, cielo, non le intendeva più. Cosa volevano dire?......... .........................</p>
+					<p><q type="spoken">- Figlia mia, la notte non oscura il giorno, il peccato non annienta l'amore, <name type="entity">Dio</name> è sempre al di sopra di ogni cosa. Il sangue di <name type="person">Gesù</name> fu versato per indicare la via a chi vuole salvarsi, ma lo spirito del male continua a tentare i figliuoli dell'uomo; l'inganno è teso sul mondo.</q></p>
+					<p>E poichè il solitario le ebbe dette queste parole, <name type="person">Mària</name> , senza collera, senza violenza, spinta da una logica inesorabile, rispose con accento straziato:</p>
+					<p><q type="spoken">- Padre, quando mi rivelasti il bene, dovevi insegnarmi che esiste il male. Anche tu mi hai ingannata.</q></p>
+				</div2>
+				<div2 type='chapter'><head>* <lb/> * *</head>
+					<p> <name type="person">Mària</name> non parlava quasi più, non piangeva. Dalla soglia della sua cameretta appariva tutte le mattine soave come un'ombra, avendo di una bianca ombra tutte le sfumature e la calma misteriosa.</p>
+					<p>Accudiva alle leggiere faccende domestiche e sedeva poi accanto al buon padre, sì che apparentemente sembrava che nulla fosse mutato in lei; ma l'angelico e quasi costante sorriso era scomparso dalle sue labbra.</p>
+					<p>A fuggitivi rossori succedeva sulle sue guancie una pallidezza dolorosa; l'occhio si spegneva a poco a poco languidamente, a guisa di una stella quando sorge il chiarore del giorno.</p>
+					<p>Trasaliva ad ogni rumore e si guardava attorno spaurita, quasi temesse delle nuove rivelazioni; e nello stesso tempo niente la interessava più.</p>
+					<p>La neve si addensava davanti alla piccola finestra; righe di corvi la attraversavano, e qualche uccellino smarrito veniva ancora a picchiare contro i vetri, ed ella non vi poneva mente. Tutte le scene della natura, che la penetravano un tempo di sì dolce entusiasmo, le sfilavano davanti lasciandola indifferente.</p>
+					<p>Il buon<name type="entity">Padre</name>le disse:</p>
+					<p><q type="spoken">- Tornerà la primavera, e con essa i fiori, le farfalle e la gioia della mia diletta.</q></p>
+					<p>Ella scosse la testa melanconicamente. Non era tutto un inganno? I fiori appassivano, morivano le farfalle, la gioia si cambiava in cordoglio. C'era un veleno nei raggi del sole, l'erba imputridiva, e le acque le più cristalline, scorrendo sulla terra, si facevano torbide e dense. Niente era puro al mondo.</p>
+					<p>Quest'intimo pensiero, fisso come un chiodo, tagliente come una lama, fondo, solitario, la attaccava nelle sorgenti stesse della vita. Ammalata di offesa al pudore, un pudico silenzio era il velo nel quale si ravvolgeva tutta; ma alla notte il lettuccio era inondato di lagrime, e, quando fuori da ogni oggetto che le rammentasse la vita materiale, ella si abbandonava, puro spirito, al dolore, <name type="entity">Dio</name> solo conosceva il suo segreto.</p>
+				</div2>
+				<div2 type='chapter'><head>* <lb/> * *</head>
+					<p>Un mattino <name type="person">Maria</name> non apparve.</p>
+					<p>Il buon<name type="entity">Padre</name>la trovò sveglia nel letto, e si avvide che faceva uno sforzo per sorridergli, per tranquillarlo.</p>
+					<p><q type="spoken">- Sono stanca, ho freddo, niente altro.</q></p>
+					<p>Non aveva infatti nè febbre, nè malore apparente. Aggradì una tazza di latte, e volle che il<name type="entity">Padre</name>le facesse come al solito la lettura dei libri santi, che ascoltò compunta e grave.</p>
+					<p>Avendo trovato fra le pagine un fiore essiccato, egli lo prese delicatamente, e porgendolo alla fanciulla con un sorriso disse:</p>
+					<p><q type="spoken">- Vedi come è misericordiosa la natura e provvida. A mezzo il verno, cinti di neve, noi possiamo ancora contemplare un fiore. Esso è palliduccio, e come il ritratto di una persona cara; ce ne offre l'immagine e ci dice: la rivedrai.</q></p>
+					<p> <name type="person">Mària</name> non rispose. Prese il fiorellino distrattamente, ma, agitandolo sulle coltri, non si accorgeva di sciuparlo. A un tratto, aperta la mano, mormorò, lasciando cadere i frantumi:</p>
+					<p><q type="spoken">- È polvere!</q></p>
+					<p>La profondità de' suoi occhi in quel momento colpì l'asceta. Una striscia color di viola li cingeva intorno, prolungando l'ombra delle ciglia, e dietro la pupilla, quasi nel mistero di un tabernacolo velato, vacillava una fiamma moribonda.</p>
+					<p><q type="spoken">- Anima cara, questo che or cade in polvere dalle tue mani non è che la promessa di ciò che verrà. Lo sai pure che ad ogni anno spuntano i fiori novelli, perchè <name type="entity">Dio</name> vuole che abbiamo sempre la nostra porzione di gioia.</q></p>
+					<p>Ancora non rispose direttamente. Seguì cogli occhi - con quei dolci occhi cinti di viola - la piccola traccia bruna che il fiore polverizzato aveva deposto sulle coltri, e come parlando a sè stessa disse:</p>
+					<p><q type="spoken">- È una macchia!</q></p>
+					<p>Acuta, penetrante, scendeva nei visceri di lui la desolazione: i suoi lombi si agghiacciavano e, atterrito, il cuore sospendeva nel suo petto i battiti.</p>
+					<p><q type="spoken">- Anima santa -</q> gemette, prostrandosi a terra, sfiorando colle labbra la bianca rimboccatura del lenzuolo <q type="spoken">- rialzati e spera. I fiori novelli che tu coglierai saranno la prova che il <name type="entity">Signore</name>  perdona. È perciò solo che si rinnova la terra.</q></p>
+					<p>Un lieve riaccendersi della face, un leggiero passaggio di rose sulla fronte, un tremito nelle membra soavi e nelle mani tese, imploranti verso il buon padre; uno scontro ineffabile delle due anime, dei due pensieri, e poi:</p>
+					<p><q type="spoken">- Io non rivedrò i fiori novelli! ............................................................................</q></p>
+				
+				<div2 type='chapter'><head>* <lb/> * *</head>
+					<p>Come muiono le rose? Esse non hanno piaghe, non soffrono di male apparente; illanguidiscono, chinano il capo, cadono... Così moriva <name type="person">Mària</name> .</p>
+					<p><q type="spoken">- Padre........................................</q></p>
+					<p>Era il tramonto, le ombre invadevano la cameretta, ed ella non aveva voluto che si accendesse il lume. Davanti alla piccola finestra la neve scendeva lenta.</p>
+					<p><q type="spoken">- Padre, recitami le litania della  <name type="entity">Vergine</name> .</q></p>
+					<p>Egli incominciò.</p>
+					<p>Nella luce crespulare, con quell'uomo inginocchiato per terra, con quella fanciulla che moriva, la bellissima fra le preghiere acquistava un fascino soprannaturale.</p>
+					<p>Ad ogni versetto <name type="person">Maria</name> rispondeva col semplice movimento delle labbra, calma ed assorta in una visione interna. Come al prete mancava la voce per lo strazio, ella gli pose la mano sulla spalla, quasi a confortarlo, ed egli continuò. Giunto alle parole Virgo fidelis, un singhiozzo gli spezzò la voce...</p>
+					<p>Oh! era ben lei la  <name type="entity">Vergine</name> fedele, la  <name type="entity">Vergine</name> martire del proprio ideale, l'ermellino che non sopravvive alla macchia! Virgo fidelis ripetè due o tre volte nell'esaltamento del proprio dolore; nè altro aggiunse, ed ella non lo richiese.</p>
+					<p>L'ombra diventava sempre più nera. Egli fece un movimento per accendere il lume, ma la mano posata sulla sua spalla lo trattenne, e, mentre cercava di distinguere al buio il dolce viso, <name type="person">Maria</name> disse:</p>
+					<p><q type="spoken">- Quanta luce! ...................................</q></p>
+					<p>Egli comprese. Nessuna preghiera usciva più dalle sue labbra, ma il suo cuore medesimo si scioglieva, si innalzava come un vapore di lagrime, come un incenso di dolore, accompagnando l'agonia luminosa.</p>
+					<p>E successe allora il più grandioso miracolo dell'armonia delle anime. Egli penetrò nel pensiero della sua diletta così intimamente da sentirsi uno spirito solo, da partecipare alla stessa visione ultrasensibile. Scese su di lui la stessa calma, lo stesso distacco assoluto dalle cose, lo stesso assorbimento nell'al di là.</p>
+					<p>Una frescura riposante sembrava circondarli; raggi tenui e splendenti uscivano dalle tenebre, per cui potevano fissarsi in volto, e pareva ad entrambi che si stesse preparando una grande dolcezza, il conseguimento di un bene lungamente desiderato. Erano ali d'angelo il fruscio invisibile che deliziava le loro orecchie, che passava sulle loro fronti, quasi per cacciarne fin l'ultimo ricordo della terra?...</p>
+					<p>I corpi non pesavano più; immaterializzati, sembravano volare nel nimbo della luce, che cresceva, cresceva fino a riempire tutta la cameretta di raggi. .......................................</p>
+					<p>Improvvisamente <name type="person">Maria</name> fece l'atto di alzarsi... tese le braccia... Il volto le sfavillava.</p>
+					<p><q type="spoken">- <name type="person">Mària</name> ! <name type="person">Mària</name> !</q></p>
+					<p>Udì, lo guardò, mormorò:</p>
+					<p><q type="spoken">- Vedo <name type="entity">Dio</name> .</q></p>
+				</div2>
+				
+				<div2 type='chapter'><head>* <lb/> * *</head>
+					<p>Tre giorni giacque il bel cadavere, sparse le chiome intorno all'origliere, le mani congiunte sul seno.</p>
+					<p>Per tre giorni egli non mangiò e non dormì, assorto nella continuità della visione. Ghirlande di gigli e di viole circondavano il letto, profumavano l'aria. Egli scorgeva schiere di serafini che si davano il cambio nel soave incarico di vegliare la diletta; ed ella diventava sempre più risplendente; le palpebre chiuse si aprivano a sguardi rapidi e profondi come di chi è immerso nell'estasi; le errava sulle labbra un divino sorriso.</p>
+					<p>La dolcezza del delirio era tale che l'asceta non si muoveva nemmeno, paralizzato nella intensità della sensazione mistica.</p>
+					<p></p>
+					<p>..............................</p>
+					<p></p>
+					<p><q type="spoken">- Chi siete? che volete da me?</q></p>
+					<p>Aveva tentato di rizzarsi in piedi, ma per l'estrema debolezza vacillava, e sarebbe caduto se il forte braccio del montanaro non lo avesse prontamente sorretto.</p>
+					<p>Era il fratello del pastore, colui, che venuto un giorno a dare la triste novella, ritornava, col cuore diviso fra la pietà e la speranza.</p>
+					<p><q type="spoken">- Padre, permettete che anch'io vi chiami così, poichè la volontà di <name type="entity">Dio</name> mi manda in un simil giorno; ben altro era lo scopo della mia venuta!</q></p>
+					<p>L'accento, il gesto, erano quelli di un dolore vivamente sentito. Pure egli era il giovane, egli era il forte, a lui toccava di agire.</p>
+					<p>Confortò l'asceta, facendogli trangugiare qualche goccia di un liquore che aveva con sè, e poi, uscito fuori, tornò con un carico di semprevivi, di rami di pino e di abete. In silenzio si pose a intrecciarli, ne compose una barella, ne adunò alla testa i rami più frondosi, le più morbide foglie, e, quando ebbe finito, disse semplicemente: <q type="spoken">- Andiamo?</q></p>
+					<p>L'asceta si mosse come nel seguito di una visione.</p>
+					<p>Presero delicatamente il corpo della fanciulla e lo posero sulle frondi verdi. La piccola porta della baita fu spalancata in pieno; i due uomini uscirono col sacro fardello.</p>
+					<p>L'uno seguendo l'altro, presero il sentiero della montagna e si fermarono al picco solitario, dove la croce piantata per <name type="person">Mària</name> sembrava aspettare <name type="person">Maria</name> .</p>
+					<p>Nevicava sempre. Un velo bianco ravvolgeva la terra, un velo bianco scendeva dal cielo.</p>
+					<p><q type="spoken">- Padre, pregate, intanto che io preparo la fossa.</q></p>
+					<p>E la neve calava sul prete inginocchiato, sul montanaro che zappava, sulla  <name type="entity">Vergine</name> immota...</p>
+					<p>Calava soffice, vaporosa, più morbida delle più morbide stoffe, più candida del più candido giglio.</p>
+					<p>La barella se ne ricoperse; scomparivano sott'essa le esili forme... la testa, il busto... Restavano i piccoli piedi ritti, ma a poco a poco scomparvero anch'essi.</p>
+					<p><q type="spoken">- Padre, io credo che una santa è nata oggi al mondo.</q></p>
+					<p>La barella discese nella fossa fresca, tutta ravvolta nella neve, e, mentre i due uomini se ne stavano davanti a testa scoperta, la neve calava, calava, calava......................................................</p>
+				</div2>
+			</div1>
+		
+			<div1 type='part' n='5'><head>SOLO.</head>
+				<p>Solo!</p>
+				<p>"O Tu, che immoto in te stesso dài vita all'universo, Tu che gl'immensi spazi in te racchiudi e de' luoghi e dei tempi, Tu che ho presente e non veggo, che ammiro e non discerno, che amo e non comprendo, che invisibile adoro, increato, infinito, immenso, eterno, ecco che a Te mi volgo, o benefattore, o padre, o <name type="entity">Dio</name> ." ............................................</p>
+				<p>Quindici anni si erano aggiunti alla sua vita; ed erano scomparsi, essi, le loro illusioni e le loro dolcezze, lasciandolo nuovamente solo e più vicino alla meta...</p>
+				<p>Prostrato davanti alla croce che egli ora non avrebbe abbandonata mai più, si batteva il petto, e sospirando gemeva: <q type="spoken">- Anima mia confessati!</q></p>
+				<p>Poteva egli sentirsi innocente e tranquillo davanti a quella croce che gli parlava di due morti? Che cosa aveva fatto per difendere e per proteggere le creature a lui affidate? Sempre la voce turbata di <name type="person">Mària</name> chiedentegli la benedizione lo perseguitava come un rimorso; e più ancora la soavissima, la divina voce di <name type="person">Maria</name>, quando gli aveva detto: Tu pure mi hai ingannata.</p>
+				<p>Ma che cosa egli aveva fatto? Aveva creduto di poter compiere da solo quello a cui non riuscirono milioni di martiri e di eroi, quello che <name type="entity">Dio</name> non permette ancora. Aveva creduto di allontanare ogni male dalle sue pecorelle tenendole lontane dal mondo, quasi Egli non fosse laggiù come Difensore e dappertutto come Punitore! Le parole di <name type="person">Sant'Agostino</name> gli tornavano singhiozzanti sulle labbra:</p>
+				<p><q>"Egli conduce in giro sopra l'ali dei venti le pioggie e le gragnuole, Egli prescrive il cammino alle nubi, Egli la strada al fulmine sonante. Il suo soffio immortale arresta i fiumi con catene di ghiaccio, e sparge sovra il piano qual cenere le brine. Dalla sua voce udì il mare intimarsi: fin qui verrai; e da secoli sono numerati i fiori che ha da produrre il prato."</q> Ed io stolto che tentai, che volli? Fui orgoglioso e <name type="entity">Dio</name> mi punisce. Egli mi atterra e mi grida: Misero verme, soffri!</p>
+				<p>Ed ancora diceva: <q type="spoken">- Anima mia, confessati, denudati davanti al tuo <name type="entity">Signore</name> . Sei stato giusto come Egli prescrive? o non hai amato troppo una delle sue creature? Non ti sei insuperbito, non hai tripudiato specchiandoti in lei con una compiacenza che doveva offendere <name type="entity">Dio</name> ? Sei tu stato abbastanza puro? Hai sempre ascoltata la sua voce, o non piuttosto la voce del tuo egoismo e della tua vanità?... Ma se io solo, se io solo sono il colpevole, perchè lanciare i tuoi fulmini, o <name type="entity">Signore</name> , su quelle due poverette?</q></p>
+				<p>Quando l'eccesso del dolore lo portava a tale inchiesta; era preso quasi subito dall'orrore della bestemmia pronunciata. Come? Egli osava ora di giudicare <name type="entity">Dio</name> ? A quale abbiettezza era dunque giunto?...</p>
+				<p>Atterrito, si gettava al suolo e, colla bocca sulla dura terra, mormorava:</p>
+				<p><q type="spoken">- Perdonatemi o mio <name type="entity">Dio</name> ! Io non so, io non chiedo perchè mi avete percosso; questo so che Voi lo voleste. La piccola mente dell'uomo cerca invano le cause e la ristretta aspirazione dei cuori freddi troppo si appaga del biasimo e della lode. La spiegazione è la scienza dell'uomo, il mistero è la Vostra, o <name type="entity">Signore</name> . Lo accetto e mi prostro. Non più vi chiederò perchè. Ogni ricerca è una profanazione. Già da secoli diceste che le colpe degli uni ricadranno sugli altri. Ma la misura, ma il modo, ma il quando sono il segreto del vostro potere.......................................</q></p>
+				<p>Questo atto di umiliazione lo calmava. Svanita fin l'ultima particella dell'Io, fin quella che si riferisce in forma d'amore alle altre creature, l'asceta si elevava al di sopra del dolore umano, e, penetrato della dolcezza dell'ideale incorporeo, mormorava nell'estasi di una dedizione suprema, curvo sulla croce:</p>
+				<p>- Colpitemi ancora, ancora, mio <name type="entity">Dio</name> , e fate che il mio cuore arda d'amore per Voi, poichè, non nell'appagamento sta la perfezione, bensì in un crescendo di ardore.</p>
+			</div1>									
+        </body>
+    </text>
+		
+</TEI>

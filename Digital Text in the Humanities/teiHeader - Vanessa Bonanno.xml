@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://github.com/COST-ELTEC/Schemas/raw/master/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://github.com/COST-ELTEC/Schemas/raw/master/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="it" xml:id="DTH01">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>
+                    <!-- title of work -->Nel sogno</title>
+                <author>
+                    <!-- information about the author --> Neera </author>
+                <respStmt>
+                    <resp>Encoded by</resp>
+                    <name>Vanessa Bonanno</name>
+                    <!-- information about the encoder -->
+                </respStmt>
+            </titleStmt>
+            <extent>
+                <measure unit="words">16017</measure>
+				<measure unit="pages">37</measure>
+                <!-- size of the text, in pages and words -->
+            </extent>
+            <publicationStmt>
+                <publisher>DHDK Course "Digital Text in the Humanities"</publisher>
+                <distributor>DHDK Course "Digital Text in the Humanities"</distributor>
+                <date>2021</date>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+                </availability>
+                <!-- standard text about status as part of ELTeC -->
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="printSource">
+                    <author>Neera</author>
+                    <title>Nel sogno</title>
+                    <date>1893</date>
+                    <publisher>Libreria Editrice Galli</publisher>
+                    <!-- bibliographic description of the printed source -->
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc n="eltec-1">
+            <p/>
+        </encodingDesc>
+
+        <profileDesc>
+            <langUsage>
+                <language ident="it">Italian</language>
+            </langUsage>
+
+            <textClass>
+                <keywords>
+                    <term>Italian literature</term>
+                </keywords>
+
+            </textClass>
+            <textDesc>
+                <authorGender xmlns="http://distantreading.net/eltec/ns" key="M"/>
+                <size xmlns="http://distantreading.net/eltec/ns" key="long"/>
+                <reprintCount xmlns="http://distantreading.net/eltec/ns" key="high"/>
+                <timeSlot xmlns="http://distantreading.net/eltec/ns" key="T4"/>
+
+            </textDesc>
+            <!-- additional descriptive information, selection criteria, etc. -->
+        </profileDesc>
+        <revisionDesc>
+            <!-- revision information -->
+            <change when="2021-04-13">Initial TEI/XML encoding</change>
+
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+		    <!-- I encoded some elements only in the 1st chapter -->		
+			<div1 type='part' n='1'><head>PARTE PRIMA</head>
+				<div2 type='chapter'><head>L'ASCETA.</head>
+					<p><q type="spoken">"Signore <name>Iddio</name>, vi ringrazio. Siate benedetto, o Signore, nel vostro splendore e nella vostra oscurità, nel bene che fate e nel male che permettete, nella rivelazione e nel mistero, in questo mondo e nell'altro, perché Voi solo sapete. Restino con Voi i cuori puri che mai non conobbero i turbamenti del peccato; vengano a Voi i cuori ardenti che la passione tormenta; accoglieteci tutti, mio Dio, nella vostra misericordia."</q></p>
+					<p>Sulle ultime parole il prete, che già stava in ginocchio cogli occhi rivolti al cielo, chinò la testa, e rimase lungamente assorto in un'estasi mistica.</p>
+					<p>Era il tramonto, ed era la stagione più calda dell'anno.</p>
+					<p>A tanta altezza sopra i viventi il sole calava in uno sfolgorìo immacolato di raggi, accendendo scintille sulle vette più sporgenti dei ghiacciai, tracciando strisce purpuree sui fianchi delle montagne, facendo luccicare a tratti i piccoli rivoli delle sorgenti discendenti lungo le balze, nel fondo dei burroni, dove già nereggiava il mistero della notte.</p>
+					<p>Fresca, purissima, imbevuta di aromi resinosi, l'aria traspariva in mezzo ai boschi d'abete, e, aprendo spazi più chiari nelle chiome vaporose dei faggi, ne faceva emergere i bianchi e ritti fusti allineati colla grazia elegante e gracile dì un colonnato greco.</p>
+					<p>Fuori dei boschi, nei cespugli sparsi, nei licheni arrampicanti, nei grossi ciuffi di rododentro, nelle ágavi, nelle ériche, nelle felci, nelle macchie brune e sinuose del muschio, nell'atteggiamento rigido dei rami delle brughiere si disegnavano ombre vaghe di persone oranti, di braccia erette al cielo, come se dalla natura tutta venisse in quell'ora e in quel luogo un irresistibile bisogno di preghiera.</p>
+					<p>Tornando ad alzare la fronte, il prete vide tutto ciò. Quei monti, quel cielo, quegli alberi, quello spazio, erano da molti anni i suoi amici, i compagni muti eppure intendenti del suo fervido innalzamento a <name>Dio</name>. Con un placido sguardo egli abbracciò le vette fin le più lontane, apparenti quasi nubi al disopra delle altre. Un profondo sentimento d'amore, una parentela misteriosa lo univa a quei colossi che dalla terra guardavano il cielo. Egli ne sentiva la invitta potenza; amava la loro saldezza granitica, la purità dei loro marmi e delle loro nevi. Una tenerezza figliale lo prendeva, man mano che qualcuna delle vette scompariva nella oscurità; si sarebbe detto che egli voleva accarezzarle come si accarezza una testa adorata a cui il sonno sta per chiudere gli occhi.</p>
+					<p>Nessuna melanconia si mesceva a questo saluto che il solitario dava tutte le sere ai suoi monti; nessuna preoccupazione terrena, nessun timore per il domani. Semplice e calma, la sua anima riposava nella natura di cui gli era penetrata in tutte le fibre la placidità maestosa. Non come uomo perduto in un deserto, ma come simile, vivente fra i suoi simili, egli intendeva il silenzio dell'ombra.</p>
+					<p>Il raccoglimento degli alberi, il cadere del sasso, il quasi impercettibile spostamento dei rami, dei sottili fili d'erba al passaggio di un insetto, gli riempivano il cuore di una dolcezza traboccante; per cui la sua preghiera era spesso accompagnata da altre piccole preci, da slanci di riconoscenza e d'amore, da un tenero delirio e da una compenetrazione così intima della bontà e della grandezza di <name>Dio</name> che lagrime di consolazione gli scendevano dagli occhi, e, trovandosele poi sulle mani e sugli abiti, egli non sapeva più se fossero le lagrime proprie o la stessa rugiada che cadeva dal cielo sui fili d'erba e sugli insetti.</p>
+					<p>Mormorò a bassa voce: <q type="spoken">"L'invisibile si è rivelato a me, io sento la voce della solitudine."</q> Poi si tolse d'in sui ginocchi e stette ritto colle braccia conserte.</p>
+					<p>Era una piccola figura d'uomo, molto delicata: e, ad onta che la vita all'aria aperta gli avesse abbronzata ed incartapecorita la pelle, nelle cavità fra il naso e le guancie, sotto gli occhi, sui polsi gli biancheggiava la trasparenza degli asceti, ed il profilo che staccavasi con una assoluta assenza di pastosità in una linea d'acciaio, la bocca sottilissima, immateriale, gli davano una somiglianza perfetta coi santi più conosciuti del martirologio cristiano.</p>
+					<p>Vestiva una tonaca informe di lana bruna sciolta ai fianchi e cadente sopra un paio di rozze scarpe allacciate a mo' dei sandali antichi con striscioline di cuoio. La testa era nuda, cinta da pochi capelli lunghi e svolazzanti dietro l'orecchio, col segno della sacra tonsura ancora visibile benchè da parecchi anni sconosciuta al rasoio.</p>
+					<p>La sua età appariva incerta. Come tutti coloro che sono assorti in un mondo superiore, sembrava sfuggire alla legge comune della vecchiaia. La sua età era quella di chi ama e di chi crede.</p>
+				</div2>
+			<!-- end of my encoding. Below I just put paragraphs of the PARTE 1-->
+				
+				<div2 type='chapter'><head>* <lb/> * *</head>
+					<p>Nato nei campi, nutrito fin dalle fascie dell'ossigeno dei monti, cresciuto insieme agli uccelli, alle farfalle, ai fiori, egli non aveva mai saputo staccarsi dalla sua patria naturale, e, quando era stato il momento di scegliere il suo posto nel mondo, gli parve che nessuno potesse soddisfare meglio i suoi desideri che quello di una adorazione continua al divino Fattore.</p>
+					<p>Sorgere col sole del mattino, schiudersi colla gemma e colla crisalide, olezzare col petalo, lavorare coll'ape, combattere col vento, gemere colla fonte, meditare col sasso, fremere col bosco, alzarsi coll'allodola e piegare al tramonto calmo e solenne cantando le lodi di Dio: ecco il suo ideale.</p>
+					<p>Fu prete a vent'anni. Nè lotte, nè ostacoli si frapposero al compimento della sua vocazione.</p>
+					<p>Egli tese le sue ali d'angelo, e passò dal mondo dell'innocenza a quello della penitenza, senza toccare il fuoco. L'anima sua, monda di terrene passioni, poteva appropriarsi il detto dell'apostolo: "La grazia comincia dove è spento l'orgoglio e quando l'uomo si è vuotato di sè, allora solo si riempie della sapienza."</p>
+					<p>Vuotato di sè egli era fino all'ultimo punto; la sua persona non gli apparteneva che a guisa di un abito tolto a prestito, e similmente considerava tutti gl'interessi degli uomini. Soleva ripetere con grande compunzione la teoria di San Tommaso:</p>
+					<p>"Nell'universo ciascuna creatura è per la sua perfezione; le creature più ignobili sono per le più nobili, onde quelle che stanno al di sotto dell'uomo devono servire l'uomo; poi tutte le creature sono per la perfezione dell'universo, e infine tutto l'universo tende a Dio come a suo fine."</p>
+					<p>Questo scopo della perfezione lo investiva di un ardore continuo, lo traeva agli eccessi. Egli andava a cercare i miserabili nelle loro tane più infette, divideva con loro il suo pane e si coricava al loro fianco.</p>
+					<p>Egli visse a lungo coi beoni, coi ladri, cogli appestati, cogli atei; passò quale meteora nei covili infesti del vizio e del delitto; predicò la sua parola d'amore e di pace sui trivii dove le più sozze vendette si compivano in tragedie di sangue. Passò inascoltato, puro e disilluso, ed andò a portare la sua fede ardente in altri luoghi.</p>
+					<p>Egli volle conoscere il mondo dei felici che, non avendo nessuna lotta, nè di denaro, nè di sensi, nè di ignoranza, parevano i meglio disposti ad accogliere la grazia; ma anche qui naufragò nei gorghi più crassi del materialismo e della indifferenza. Le divine parole "ciascuna creatura è per la sua perfezione" sembrava che si fossero arrestate alla soglia di quel tempio di egoisti. Non vi erano fra loro creature nobili, nè ignobili, ma solo una massa uniforme e compatta di pilori e di ventri.</p>
+					<p>Andò, andò ancora, cercando con ansia amorosa là dove la fede gli indicava più sicuro tabernacolo ai suoi ideali, e fu l'ultimo, il più terribile dei disinganni.</p>
+					<p>Allora, afflitto, non scorato; misero, ma non solo, poichè Dio era nel suo cuore, si ridusse all'unica adorazione del Creatore, rimettendo a Lui, che guida la caduta delle foglie, anche la salute degli uomini. Calmato così di ogni sete terrena, il suo misticismo si rivolse tutto alla contemplazione.</p>
+				</div2>	
+				<div2 type='chapter'><head>* <lb/> * *</head>
+					<p>Fu allora che incominciò a vedere angeli erranti nell'accavallamento delle nubi, schiere di cherubini sui prati quando saliva la nebbia, e, se l'arcobaleno cingeva i monti, si buttava in ginocchio in preda all'estasi, tendendo le pupille verso le vette dove gli sembrava di scorgere profetiche parole scritte in lingue di fuoco.</p>
+					<p>Se dall'estasi religiosa passava all'umiltà della vita quotidiana, in ogni atto, in ogni detto portava una tale astrazione dal reale che ben presto vennero a parlare di lui come di un fenomeno, come di un essere vivente in sogno.</p>
+					<p>Aveva in quel tempo cura d'anime in un povero paesello, di cui egli era anche il più povero abitante; ma starsene scalzo sulla soglia della sua casetta, mangiare radici, rattopparsi da sè i propri abiti, non gli parevano cose contrarie alla sua divina missione.</p>
+					<p>Senonchè il fervore ascetico cresceva fuor di misura; già egli non beveva neppure una goccia del vino consacrato, avendo per il vino una ripugnanza da isterico, e meglio, quella santa mortificazione del palato che, pari a S. Girolamo, gli avrebbe fatto sorbire senza accorgersene, olio per acqua. Di più si prese a vociferare che, nel suo stato continuo di rapimento, gli accadesse di compiere il suo parco asciolvere, consistente in una cipolla o in poche foglie d'insalata, prima di celebrare la messa.</p>
+					<p>E, a proposito della messa e delle altre funzioni domenicali, la sua condotta si faceva sempre più stravagante. Egli si rifiutava all'obbligo fisso della domenica, dicendo che tutti i giorni appartengono al Signore, e non si deve dedicare un giorno solo a chi è padrone dei secoli. Ma in tutte le stagioni, con tutti i tempi, i lavoratori se lo vedevano comparire davanti, ed inginocchiato in mezzo all'erba accompagnare l'opera dei campi con cantilene soavi e tenere o con inni ardenti di fede.</p>
+					<p>Una volta, mentre predicava in chiesa nell'occasione di una lunga siccità che minacciava di abbruciare tutte quante le messi, vide attraverso le finestre annuvolarsi il cielo e sui vetri cadere fitti fitti i primi goccioloni di una benefica pioggia.</p>
+					<p>Trasportato di riconoscenza, scese dal pulpito, e colle braccia, e colla voce e coll'esempio traendosi dietro la folla dei fedeli, li schierò tutti fuori del tempio, in aperta campagna, facendo loro ammirare la bontà della Provvidenza, e invitandoli a cantare nel pieno trionfo della natura il trionfo di Dio.</p>
+					<p>Dopo quel giorno, gli rimase l'abitudine delle prediche sotto il cielo.</p>
+					<p>Nei caldi meriggi dell'estate specialmente, egli raccoglieva i suoi parrocchiani all'ombra maestosa delle quercie e, umile in mezzo agli umili, parlava loro da fratello a fratelli, usando il dialetto famigliare a tutti, evitando le citazioni, servendosi della parola del Signore nella sua forma più umana per poter giungere fino all'ultimo dei cuori, fino al piccoletto cuore dei fanciulli a cui egli permetteva di trastullarsi intorno a lui.</p>
+					<p>Un forestiero, capitato a sentire una di queste prediche, se ne mostrò scandalizzato, e osò dirgli apertamente che vi era una casa consacrata alla preghiera e che questa casa era il tempio. Ma egli rispose pronto colle parole stesse di S. Matteo: "Vi dico che qui vi è alcuno maggiore del tempio." Ed anzi, avendo in quel giorno dimenticata la croce colla quale soleva benedire il suo docile popolo, colse dal prato un fiorellino, e, con esso tracciando nell'aria le mistiche linee, pronunciò col massimo fervore questa poetica invocazione:</p>
+					<p>"O Voi, dalla cui mano misteriosa prendo questo fiore in tutta la sua purezza, mentre il legno della croce è stato lavorato dagli uomini, Divino Fattore, questa purezza, questo profumo versateli sui vostri servi, così che noi possiamo, simili al fiore, seguire la vostra legge, e, chinando il capo alla mano che ci coglie, dire: Ei volle!"</p>
+				</div2>
+				<div2 type='chapter'><head>* <lb/> * *</head>
+					<p>I parrocchiani gli volevano bene, ma i suoi compagni del clero, che vedevano in lui un esempio troppo pericoloso, non tardarono a mormorare: e che egli era un mattoide, che a furia di prendere il Vangelo alla lettera avrebbe ricondotta la società ai tempi barbari, che invece di andare cantando e predicando nei prati, avrebbe fatto meglio a curare la sua chiesa, la quale, meschinella, si covriva di ragnateli, e non si trovava mai olio nelle lampade, che era una vergogna.</p>
+					<p>Il buon prete cercò sulle prime di scusarsi, disse: - È vero, la lampada della chiesa manca spesso d'olio, perchè io non cerco mai un soldo alle mie pecorelle già così crudelmente tosate; anzi do loro spesso anche i piccoli proventi delle messe, e una volta staccai la lampadina d'innanzi al Santissimo per portarla ad una povera donna che aveva due bambini malati in una stalla, i quali nell'oscurità della notte gridavano continuamente, sì che lei correva dall'uno all'altro al buio chiamando la Madonna. Se ho fatto male, me ne pento, ma l'Altissimo vede la mia intenzione, e sa che non tolsi l'olio alla chiesa se non quando ebbi dato tutto il mio.</p>
+					<p>I suoi compagni lo accusarono ancora di soverchia indulgenza verso i parrocchiani, perchè li rimandava assolti di tutte le loro colpe.</p>
+					<p>- Le loro colpe! - esclamò allora, arrossendo di rossore e di sdegno. - Ma quali sono le loro colpe, poichè vivono al cospetto di Dio, riconoscendolo e adorandolo, poichè lavorano e poichè si amano gli uni cogli altri? e quando essi vengono umilmente a dirmi: "padre, ho peccato" come non dovrei compatirli se io stesso pecco, e Dio volle che l'errore fosse diffuso in tutte le cose create, sì che non sempre il melo dà pomi, nè la spica è sempre piena di grano, ed alcuna volta la gallina e la tortora si cibano delle proprie uova uccidendo i loro figliuoli?</p>
+					<p>A codeste ragioni gli avversari si guardavano tra loro sogghignando e scuotendo la testa.</p>
+				</div2>
+				<div2 type='chapter'><head>* <lb/> * *</head>
+					<p>Un ultimo fatto diè il crollo alla riputazione del troppo semplice pastore, e fu quando lo trovarono un giorno con un lembo di sottana ritagliata grottescamente fin sopra il ginocchio, così ridotta da lui stesso per averne regalato un brano a un fanciullino ignudo.</p>
+					<p>- Tutte queste follie stanno bene nelle vite dei santi - mormoravano i figli dei farisei - perchè là in fondo nessuno ci pesca, e si può credere benissimo che a quei tempi fossero necessarie; ma in un secolo di lumi, proprio quando il clero è accusato di oscurantismo, dovremo permettere simili puerilità?</p>
+					<p>Il decoro della chiesa, la inviolabilità dei dogmi, il carattere sacro di sacerdote, la responsabilità di parroco, l'opportunità, il progresso, tutto fu preso ad argomento, e tutto riuscì per togliere al prete la sua piccola cura.</p>
+					<p>Egli se ne partì, un mattino d'inverno, recando nell'una mano il Vangelo, nell'altra un paio di passeri, che gli erano caduti tramortiti ai piedi.</p>
+					<p>Lungo il sentiero dei noccioli che la brina aveva cristallizzato, qualche contadino lo vide camminare col suo passo svelto, col volto sereno, l'occhio rivolto al Cielo; ed una donna, che gli si era accostata per baciargli la tonaca, lo udì mormorare in tuono sommesso fra la preghiera e il canto: "Siate lodato e benedetto o Signore, in tutte le azioni vostre. Voi sapete perchè la rondinella emigra, perchè la foglia appassisce e cade, perchè il chicco della grandine percuote l'uva matura, perché il bruco immondo sale sopra lo stelo della rosa e lo succhia. Tutto ciò che Voi permettete, o mio Dio, ha la sua ragione nella essenza stessa del vostro potere. Io vi saluto e vi ringrazio. Eccomi nelle vostre mani."</p>
+				</div2>
+				<div2 type='chapter'><head>* <lb/> * *</head>
+					<p>Da quel giorno aveva abbandonato per sempre il consorzio degli uomini.</p>
+					<p>Lassù, sulla montagna, in una piccola baita, vicino alla natura, che era stata la sua amica in ogni tempo e quasi la madre sua, si ritrasse solo; e la sua vita, che semplice era stata sempre, si raffinò ancor più in un crescendo immateriale, in una contemplazione indefinita di tutto ciò che era l'opera di Dio. Gli accadeva talvolta di non guardare nulla, nè il cielo, nè i monti, nè i boschi, di non respirare nemmeno; ma, assorto in un rapimento interno, ripetere tra sé: "Esisto!" con una tale estasi del proprio mistero che mille mondi aperti al suo sguardo non gli avrebbero potuto dare più intensa gioia.</p>
+					<p>E allora, sì, visse come egli aveva sognato, dividendo la vita degli astri, del fiore, dell'ape, del vento, della fonte, del sasso; bevendo la rugiada nel concavo delle foglie, coricandosi sotto le stelle, così riamato nel suo amore per la natura che il freddo non lo toccava, nè lo molestava il sole, e gli umidi prati non serbavano per lui nessun veleno.</p>
+					<p>Tutto ciò che era animale sembrava fondersi in quel contatto ininterrotto di forze vegetali. La completa assenza dei suoi simili, l'astensione dai cibi di carne e dalle bevande alcooliche, avevano purificato in tal modo tutte le cellule del suo io che perfino il volto, l'espressione, i movimenti erano quelli di un essere a parte, quasi un anello gettato al di là dell'uomo, un tentativo sublime e pazzo di congiungersi alla divinità incorporea.</p>
+					<p>Toccava allora la fine della gioventù, il momento disperato dei grandi ardori e delle supreme battaglie, quando, nella pienezza delle sue forze, la volontà dell'uomo domina sensi e pensiero.</p>
+					<p>Serrate le braccia sul petto a guisa di corazza, egli amava guardare dalle più alte rupi il fondo della valle, dove una via biancheggiante fra i castagni conduceva alla città. Il suo occhio acuto di montanaro gli faceva scorgere tutti i particolari della discesa lungo la linea serpeggiante del sentiero, e la sua fervida immaginazione, eccitata dalla solitudine, lo riconduceva sulla scena del mondo, ricordandogli parole e cose, fatti e persone, con una evidenza tale che egli aveva bisogno di gettarsi indietro, di alzare la testa al suo cielo ed alle sue vette per persuadersi che il passato era morto per sempre. Come si sentiva felice allora!</p>
+				</div2>
+				<div2 type='chapter'><head>* <lb/> * *</head>
+					<p>Tutte le idealità si erano congiunte allo scopo unico della sua esistenza: vivere in Dio. Non nato per il consorzio umano, aveva pure sostenuta la sua parte d'uomo, aveva tese le braccia e l'anima verso i suoi simili; li aveva amati, sorretti, confortati: aveva vissuto con loro accanto alle loro miserie ed ai loro vizi; aveva pure frantumato il cuore per darne un pezzetto a ciascuno; era stato volte a volte padre, fratello, maestro, servo. Aveva il diritto di appartenersi tutto intero, di offrirsi anima e corpo, sentimento ed azione, al suo eterno amore.</p>
+					<p>E come da quelle vette gli pioveva un senso di pace ineffabile, una coscienza alta e serena della propria individualità! Poiché non aveva chiesto nulla al mondo, doveva aspettarsi tutto da Dio. L'invisibile gli apparteneva. Egli si sentiva re dell'ignoto, del susurro dei venti, dell'ombra dei boschi, dello sfolgorìo delle stelle - re del mistero, a cui le estasi profonde dell'anima non negavano alcuna delle loro voluttà, per cui le leggi del creato, spogliandosi di ogni significato materiale, ritornavano alla pura essenza divina, alla irradiazione di un amore sublime ed occulto - re dei re, poichè aveva disdegnato la gloria, la ricchezza, il piacere, ogni gioia terrena, ogni patria mortale - e vicino a lui, e sopra di lui, non stava altro che Uno.</p>
+				</div2>
+			</div1>
+			
+			<div1 type='part' n='2'><head>PARTE SECONDA</head>
+				<div2 type='chapter'><head>MARIA.</head>
+					<p></p>
+				</div2>
+			</div1>
+			
+			<div1 type='part' n='3'><head>PARTE TERZA</head>
+				<div2 type='title'><head>MISTERO.</head>
+					<p></p>
+				</div2>
+			</div1>
+			
+			<div1 type='part' n='4'><head>PARTE QUARTA</head>
+				<div2 type='chapter'><head>IL MALE.</head>
+					<p></p>
+				</div2>
+			</div1>
+			
+			<div type='part' n='5'><head>SOLO.</head>
+				<p></p>
+			</div1>									
+        </body>
+    </text>
+		
+</TEI>
